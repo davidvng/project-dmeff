@@ -3906,7 +3906,7 @@ int thermodynamics_dmeff_rate(struct background *pba,
   }
   else if (pth->dmeff_target == electron){ // generic electron
     mass_target = _m_e_;
-    rho_target  = rho_baryon;
+    rho_target  = ((1.-pth->YHe)*rho_baryon)/1836;
   }
 
   /* thermal dispersion */
