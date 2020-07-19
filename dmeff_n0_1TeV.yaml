@@ -74,7 +74,7 @@ params:
     proposal: 0.0005
     latex: \Omega_\mathrm{dmeff} h^2
   m_dmeff:
-    value: 1.0
+    value: 1.0e3
     latex: m_\mathrm{dmeff}
   npow_dmeff:
     value: 0
@@ -82,7 +82,7 @@ params:
   sigma_dmeff:
     prior:
       min: 1.0e-30
-      max: 1.0e-22
+      max: 1.0e-21
 #    ref:
 #      dist: uniform
 #      min: 1.0e-30
@@ -141,10 +141,9 @@ sampler:
     oversample_power: 0.4
     proposal_scale: 1.9
 
-output: chains/dmeff_fixedn+fixedm_seg
-
-debug: true
-debug_file: seg2.txt
+output: chains/dmeff_n0_1TeV
 
 #hmcode doesn't exist in dmeff class; set non linear to halofit and removed hmcode_min_k_max
 #leaving drag as true ended with seg faults each time
+
+#leaving non linear as empty seems to improve memory a little bit

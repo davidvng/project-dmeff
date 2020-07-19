@@ -2,9 +2,6 @@ theory:
   classy:
     path: /home1/davidvng/repos/class_dmeff
     extra_args:
-      #non linear: halofit
-#hmcode doesn't exist in dmeff class
-      #hmcode_min_k_max: 20
       N_ncdm: 1
       N_ur: 2.0328
 likelihood:
@@ -83,11 +80,6 @@ params:
     prior:
       min: 1.0e-30
       max: 1.0e-22
-#    ref:
-#      dist: uniform
-#      min: 1.0e-30
-#      max: 1.0e-22
-#    proposal: 0.0005
     latex: \sigma_\mathrm{dmeff}
   Omega_m:
     latex: \Omega_\mathrm{m}
@@ -140,11 +132,5 @@ sampler:
     drag: false
     oversample_power: 0.4
     proposal_scale: 1.9
-
-output: chains/dmeff_fixedn+fixedm_seg
-
-debug: true
+output: dmeff_fixedn+fixedm_seg
 debug_file: seg2.txt
-
-#hmcode doesn't exist in dmeff class; set non linear to halofit and removed hmcode_min_k_max
-#leaving drag as true ended with seg faults each time
