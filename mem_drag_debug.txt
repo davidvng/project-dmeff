@@ -1,0 +1,9 @@
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_drag_lcdm_test'
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_drag_lcdm_test'
+[output] Let's try to resume/load.
+[output] Found an old sample. Resuming.
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[mcmc] Resuming from previous sample!
+[mcmc] *ERROR* Cannot resume a run with a different number of chains: was 4 and now is 1.

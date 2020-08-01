@@ -1,0 +1,34 @@
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_mem_test'
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_mem_test'
+[output] Let's try to resume/load.
+[output] Found an old sample. Resuming.
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[mcmc] Resuming from previous sample!
+[collection] Loaded 33340 samples from 'chains/dmeff_mem_test.1.txt'
+[mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[mcmc] Oversampling with factors:
+[mcmc] * 1 : ['logA', 'n_s', 'omega_b', 'omega_dmeff', 'sigma_dmeff', 'tau_reio']
+[mcmc] * 7 : ['A_planck']
+[mcmc] Covariance matrix from checkpoint.
+[mcmc] Initial point: logA:3.055046, n_s:0.9609631, omega_b:0.0224104, omega_dmeff:0.1211822, sigma_dmeff:7.780108e-26, tau_reio:0.05291596, A_planck:1.005521
+[mcmc] Sampling!
+[mcmc] Progress @ 2020-08-01 03:07:40 : 1 steps taken, and 33340 accepted.
+[mcmc] Learn + convergence test @ 33360 samples accepted.
+[mcmc]  - Acceptance [mcmc] Progress @ 2020-08-01 03:08:26 : 337 steps taken, and 33293 accepted.
+[mcmc] Progress @ 2020-08-01 03:09:26 : 501 steps taken, and 33342 accepted.
+[mcmc] Learn + convergence test @ 33360 samples accepted.
+[mcmc]  - Acceptance rate: 0.676
+[mcmc]  - Convergence of means: R-1 = 0.006206 after 33360 accepted steps
+[blockedproposer][mcmc] Progress @ 2020-08-01 03:10:42 : 443 steps taken, and 33498 accepted.
+[mcmc] Progress @ 2020-08-01 03:11:43 : 613 steps taken, and 33557 accepted.
+[mcmc] Learn + convergence test @ 33600 samples accepted.
+[mcmc]  - Acceptance rate: 0.676
+[mcmc]  - Convergence of means: R-1 = 0.006921 after 33600 accept[[mcmc] Progress @ 2020-08-01 03:13:28 : 1189 steps taken, and 33593 accepted.[mcmc] Learn + convergence test @ 33600 samples accepted.
+[mcmc]  - Acceptance rate: 0.676
+[mcmc]  - Convergence of means: R-1 = 0.006990 after 33600 accepted steps
+[mcmc]  - Convergence of bounds: R-1 = 0.063735 after 33600 accepted steps
+[mcmc] The run has converged!
+[mcmc] Sampling complete after 33600 accepted steps.
+

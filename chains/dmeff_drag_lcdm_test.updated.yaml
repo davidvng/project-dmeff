@@ -168,8 +168,8 @@ params:
     latex: Y_\mathrm{P}
     derived: true
     renames:
-    - yheused
     - yhe
+    - yheused
   tau_reio:
     prior:
       min: 0.01
@@ -270,3 +270,5 @@ sampler:
 output: dmeff_drag_lcdm_test
 debug_file: mem_drag_debug.txt
 version: '3.0'
+packages_path: null
+test: false
