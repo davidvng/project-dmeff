@@ -1,0 +1,766 @@
+[0 : output_mpi] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_dev_test'
+[0 : classy] Importing *local* classy from /home1/davidvng/repos/class_dmeff_dev
+[2 : classy] Importing *local* classy from /home1/davidvng/repos/class_dmeff_dev
+[3 : classy] Importing *local* classy from /home1/davidvng/repos/class_dmeff_dev
+[1 : classy] Importing *local* classy from /home1/davidvng/repos/class_dmeff_dev
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[1 : classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[3 : classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[0 : classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[2 : classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[1 : mcmc] Getting initial point... (this may take a few seconds)
+[2 : mcmc] Getting initial point... (this may take a few seconds)
+[2 : prior] Reference values or pdf's for some parameters were not provided. Sampling from the prior instead for those parameters.
+[3 : mcmc] Getting initial point... (this may take a few seconds)
+[1 : prior] Reference values or pdf's for some parameters were not provided. Sampling from the prior instead for those parameters.
+[3 : prior] Reference values or pdf's for some parameters were not provided. Sampling from the prior instead for those parameters.
+[0 : mcmc] Getting initial point... (this may take a few seconds)
+[0 : prior] Reference values or pdf's for some parameters were not provided. Sampling from the prior instead for those parameters.
+[0 : model] Measuring speeds... (this may take a few seconds)
+[0 : model] Setting measured speeds (per sec): {planck_2018_highl_plik.TTTEEE_lite: 352.0, planck_2018_lensing.clik: 657.0, classy: 0.846}
+[3 : mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[1 : mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[0 : mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[2 : mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[0 : mcmc] Oversampling with factors:
+[0 : mcmc] * 1 : ['logA', 'n_s', 'theta_s_1e2', 'omega_b', 'omega_dmeff', 'sigma_dmeff', 'tau_reio']
+[0 : mcmc] * 8 : ['A_planck']
+[0 : mcmc] Covariance matrix loaded for params ['omega_b', 'tau_reio', 'logA', 'n_s', 'A_planck']
+[0 : mcmc] Missing proposal covariance for params ['theta_s_1e2', 'omega_dmeff', 'sigma_dmeff']
+[0 : prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[0 : mcmc] Covariance matrix not complete. We will start learning the covariance of the proposal earlier: R-1 = 50 (would be 30 if all params loaded).
+[0 : mcmc] Initial point: logA:3.049604, n_s:0.9599931, theta_s_1e2:1.04148, omega_b:0.02243459, omega_dmeff:0.1211804, sigma_dmeff:6.866516e-24, tau_reio:0.05974924, A_planck:0.9977186
+[3 : mcmc] Initial point: logA:3.050742, n_s:0.9701653, theta_s_1e2:1.041525, omega_b:0.02236333, omega_dmeff:0.1218258, sigma_dmeff:5.231122e-25, tau_reio:0.04542404, A_planck:1.000745
+[2 : mcmc] Initial point: logA:3.050814, n_s:0.9619941, theta_s_1e2:1.041583, omega_b:0.0223782, omega_dmeff:0.1195522, sigma_dmeff:1.140346e-29, tau_reio:0.06593371, A_planck:1.000168
+[1 : mcmc] Initial point: logA:3.050956, n_s:0.9625169, theta_s_1e2:1.040936, omega_b:0.02232322, omega_dmeff:0.1208673, sigma_dmeff:3.595393e-28, tau_reio:0.04906657, A_planck:0.9999226
+[0 : mcmc] Sampling!
+[3 : mcmc] Sampling!
+[1 : mcmc] Sampling!
+[2 : mcmc] Sampling!
+[2 : mcmc] Progress @ 2020-09-01 12:30:39 : 1 steps taken, and 0 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:30:39 : 1 steps taken, and 0 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:30:39 : 1 steps taken, and 0 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:30:39 : 1 steps taken, and 0 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:31:39 : 180 steps taken, and 40 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:31:39 : 226 steps taken, and 50 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:31:39 : 165 steps taken, and 49 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:31:40 : 218 steps taken, and 36 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:32:39 : 448 steps taken, and 92 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:32:39 : 336 steps taken, and 87 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:32:40 : 333 steps taken, and 79 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:32:40 : 455 steps taken, and 83 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:33:39 : 688 steps taken, and 134 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:33:40 : 545 steps taken, and 126 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:33:40 : 567 steps taken, and 135 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:33:41 : 720 steps taken, and 133 accepted.
+[2 : mcmc] Learn + convergence test @ 140 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 140 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 140 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 140 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.424 = avg([0.4691358024691358, 0.38403990024937656, 0.39018087855297157, 0.45454545454545453])
+[0 : mcmc]  - Convergence of means: R-1 = 105803.607064 after 597 accepted steps = sum([152, 154, 151, 140])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[3 : mcmc] Progress @ 2020-09-01 12:34:40 : 746 steps taken, and 167 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:34:40 : 888 steps taken, and 175 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:34:41 : 768 steps taken, and 176 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:34:42 : 916 steps taken, and 178 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:35:40 : 1137 steps taken, and 217 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:35:41 : 948 steps taken, and 209 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:35:42 : 955 steps taken, and 212 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:35:43 : 1134 steps taken, and 217 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:36:41 : 1364 steps taken, and 256 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:36:42 : 1169 steps taken, and 252 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:36:43 : 1179 steps taken, and 247 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:36:44 : 1372 steps taken, and 270 accepted.
+[1 : mcmc] Learn + convergence test @ 280 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Learn + convergence test @ 280 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 280 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:37:42 : 1576 steps taken, and 291 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:37:43 : 1371 steps taken, and 287 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:37:44 : 1379 steps taken, and 279 accepted.
+[0 : mcmc] Learn + convergence test @ 280 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2020-09-01 12:37:45 : 1591 steps taken, and 312 accepted.
+[0 : mcmc]  - Acceptance rate: 0.397 = avg([0.4069767441860465, 0.39272271016311167, 0.3720050441361917, 0.4192139737991266])
+[0 : mcmc] *WARNING* Negative covariance eigenvectors. This may mean that the covariance of the samples does not contain enough information at this point. Skipping learning a new covmat for now.
+[3 : mcmc] Progress @ 2020-09-01 12:38:43 : 1565 steps taken, and 330 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:38:43 : 1820 steps taken, and 340 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:38:44 : 1548 steps taken, and 319 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:38:45 : 1817 steps taken, and 351 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:39:44 : 2044 steps taken, and 380 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:39:44 : 1780 steps taken, and 380 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:39:46 : 1768 steps taken, and 361 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:39:46 : 2014 steps taken, and 385 accepted.
+[1 : mcmc] Learn + convergence test @ 420 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 420 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Learn + convergence test @ 420 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:40:44 : 2254 steps taken, and 423 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:40:45 : 1988 steps taken, and 426 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:40:46 : 1992 steps taken, and 398 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:40:47 : 2255 steps taken, and 443 accepted.
+[0 : mcmc] Learn + convergence test @ 420 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.400 = avg([0.4, 0.39126784214945426, 0.37761069340016706, 0.42994241842610365])
+[0 : mcmc]  - Convergence of means: R-1 = 658.263980 after 1786 accepted steps = sum([420, 466, 452, 448])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[2 : mcmc] Progress @ 2020-09-01 12:41:44 : 2470 steps taken, and 469 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:41:45 : 2177 steps taken, and 467 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:41:47 : 2199 steps taken, and 442 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:41:48 : 2501 steps taken, and 494 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:42:45 : 2662 steps taken, and 499 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:42:47 : 2411 steps taken, and 516 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:42:48 : 2383 steps taken, and 481 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:42:48 : 2723 steps taken, and 534 accepted.
+[1 : mcmc] Learn + convergence test @ 560 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 560 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:43:46 : 2865 steps taken, and 537 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:43:48 : 2644 steps taken, and 566 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:43:49 : 2627 steps taken, and 528 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:43:49 : 2980 steps taken, and 581 accepted.
+[2 : mcmc] Learn + convergence test @ 560 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 560 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.399 = avg([0.4014336917562724, 0.3875870804306523, 0.3801324503311258, 0.4268465909090909])
+[0 : mcmc]  - Convergence of means: R-1 = 243.654975 after 2347 accepted steps = sum([560, 612, 574, 601])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[2 : mcmc] Progress @ 2020-09-01 12:44:46 : 3065 steps taken, and 580 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:44:49 : 2835 steps taken, and 570 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:44:49 : 2863 steps taken, and 610 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:44:50 : 3210 steps taken, and 622 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:45:47 : 3289 steps taken, and 615 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:45:50 : 3040 steps taken, and 608 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:45:50 : 3040 steps taken, and 645 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:45:51 : 3464 steps taken, and 675 accepted.
+[1 : mcmc] Learn + convergence test @ 700 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:46:47 : 3476 steps taken, and 660 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:46:51 : 3267 steps taken, and 655 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:46:51 : 3196 steps taken, and 678 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:46:52 : 3739 steps taken, and 724 accepted.
+[3 : mcmc] Learn + convergence test @ 700 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:47:47 : 3686 steps taken, and 699 accepted.
+[2 : mcmc] Learn + convergence test @ 700 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2020-09-01 12:47:51 : 3378 steps taken, and 717 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:47:51 : 3422 steps taken, and 686 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:47:53 : 3955 steps taken, and 760 accepted.
+[0 : mcmc] Learn + convergence test @ 700 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.397 = avg([0.39863325740318906, 0.38465298142717497, 0.3796875, 0.4259049773755656])
+[0 : mcmc]  - Convergence of means: R-1 = 623.224719 after 2969 accepted steps = sum([700, 787, 729, 753])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[2 : mcmc] Progress @ 2020-09-01 12:48:48 : 3883 steps taken, and 736 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:48:51 : 3625 steps taken, and 770 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:48:53 : 3596 steps taken, and 715 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:48:54 : 4187 steps taken, and 801 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:49:49 : 4084 steps taken, and 775 accepted.
+[1 : mcmc] Learn + convergence test @ 840 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2020-09-01 12:49:51 : 3829 steps taken, and 816 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:49:53 : 3809 steps taken, and 763 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:49:54 : 4421 steps taken, and 841 accepted.
+[3 : mcmc] Learn + convergence test @ 840 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:50:50 : 4315 steps taken, and 816 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:50:53 : 4003 steps taken, and 855 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:50:55 : 4000 steps taken, and 798 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:50:55 : 4664 steps taken, and 890 accepted.
+[2 : mcmc] Learn + convergence test @ 840 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:51:50 : 4527 steps taken, and 854 accepted.
+[0 : mcmc] Learn + convergence test @ 840 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.396 = avg([0.39697542533081287, 0.3815409971157808, 0.3773168578993822, 0.4272639691714836])
+[0 : mcmc]  - Convergence of means: R-1 = 541.526706 after 3508 accepted steps = sum([840, 926, 855, 887])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[3 : mcmc] Progress @ 2020-09-01 12:51:54 : 4155 steps taken, and 887 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:51:55 : 4239 steps taken, and 840 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:51:56 : 4867 steps taken, and 929 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:52:50 : 4768 steps taken, and 902 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:52:54 : 4306 steps taken, and 921 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:52:56 : 4487 steps taken, and 894 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:52:57 : 5059 steps taken, and 969 accepted.
+[1 : mcmc] Learn + convergence test @ 980 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:53:50 : 4982 steps taken, and 937 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:53:54 : 4471 steps taken, and 954 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:53:56 : 4711 steps taken, and 939 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:53:58 : 5248 steps taken, and 999 accepted.
+[2 : mcmc] Learn + convergence test @ 980 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 980 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:54:50 : 5245 steps taken, and 998 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:54:55 : 4607 steps taken, and 978 accepted.
+[3 : mcmc] Learn + convergence test @ 980 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2020-09-01 12:54:57 : 4927 steps taken, and 987 accepted.
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2020-09-01 12:54:59 : 5460 steps taken, and 1042 accepted.
+[0 : mcmc]  - Acceptance rate: 0.396 = avg([0.400974025974026, 0.3813528336380256, 0.38035646568069775, 0.4246100519930676])
+[0 : mcmc]  - Convergence of means: R-1 = 234.656312 after 4014 accepted steps = sum([988, 1043, 1003, 980])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[2 : mcmc] Progress @ 2020-09-01 12:55:52 : 5478 steps taken, and 1044 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:55:55 : 4780 steps taken, and 1015 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:55:58 : 5115 steps taken, and 1019 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:56:00 : 5709 steps taken, and 1090 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:56:52 : 5720 steps taken, and 1095 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:56:56 : 4973 steps taken, and 1061 accepted.
+[1 : mcmc] Learn + convergence test @ 1120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2020-09-01 12:56:59 : 5299 steps taken, and 1049 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:57:01 : 5896 steps taken, and 1121 accepted.
+[2 : mcmc] Learn + convergence test @ 1120 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:57:52 : 5877 steps taken, and 1130 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:57:56 : 5164 steps taken, and 1102 accepted.
+[0 : mcmc] Progress @ 2020-09-01 12:58:00 : 5498 steps taken, and 1082 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:58:02 : 6112 steps taken, and 1164 accepted.
+[3 : mcmc] Learn + convergence test @ 1120 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 12:58:52 : 6125 steps taken, and 1175 accepted.
+[0 : mcmc] Learn + convergence test @ 1120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[3 : mcmc] Progress @ 2020-09-01 12:58:57 : 5310 steps taken, and 1135 accepted.
+[0 : mcmc]  - Acceptance rate: 0.396 = avg([0.39381153305203936, 0.3812995245641838, 0.3836150845253576, 0.42771084337349397])
+[0 : mcmc]  - Convergence of means: R-1 = 146.052980 after 4639 accepted steps = sum([1120, 1203, 1180, 1136])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[0 : mcmc] Progress @ 2020-09-01 12:59:01 : 5697 steps taken, and 1120 accepted.
+[1 : mcmc] Progress @ 2020-09-01 12:59:02 : 6338 steps taken, and 1205 accepted.
+[2 : mcmc] Progress @ 2020-09-01 12:59:53 : 6302 steps taken, and 1205 accepted.
+[3 : mcmc] Progress @ 2020-09-01 12:59:57 : 5486 steps taken, and 1173 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:00:02 : 5890 steps taken, and 1150 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:00:02 : 6537 steps taken, and 1247 accepted.
+[1 : mcmc] Learn + convergence test @ 1260 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:00:54 : 6513 steps taken, and 1240 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:00:58 : 5658 steps taken, and 1207 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:01:02 : 6756 steps taken, and 1292 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:01:03 : 6077 steps taken, and 1184 accepted.
+[2 : mcmc] Learn + convergence test @ 1260 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:01:54 : 6750 steps taken, and 1285 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:01:59 : 5853 steps taken, and 1251 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:02:02 : 7030 steps taken, and 1348 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:02:03 : 6290 steps taken, and 1231 accepted.
+[3 : mcmc] Learn + convergence test @ 1260 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 1260 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[2 : mcmc] Progress @ 2020-09-01 13:02:54 : 6970 steps taken, and 1330 accepted.
+[0 : mcmc]  - Acceptance rate: 0.396 = avg([0.39118286246507294, 0.38339370298133185, 0.3814846660934365, 0.428])
+[0 : mcmc]  - Convergence of means: R-1 = 98.114312 after 5251 accepted steps = sum([1260, 1376, 1331, 1284])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[3 : mcmc] Progress @ 2020-09-01 13:03:00 : 6013 steps taken, and 1286 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:03:03 : 7225 steps taken, and 1386 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:03:03 : 6472 steps taken, and 1267 accepted.
+[1 : mcmc] Learn + convergence test @ 1400 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:03:55 : 7173 steps taken, and 1374 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:04:00 : 6180 steps taken, and 1319 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:04:03 : 7441 steps taken, and 1427 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:04:03 : 6678 steps taken, and 1305 accepted.
+[2 : mcmc] Learn + convergence test @ 1400 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:04:55 : 7402 steps taken, and 1418 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:05:01 : 6414 steps taken, and 1378 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:05:03 : 7667 steps taken, and 1470 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:05:03 : 6900 steps taken, and 1351 accepted.
+[3 : mcmc] Learn + convergence test @ 1400 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:05:55 : 7634 steps taken, and 1469 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:06:01 : 6604 steps taken, and 1416 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:06:03 : 7868 steps taken, and 1504 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:06:03 : 7100 steps taken, and 1384 accepted.
+[0 : mcmc] Learn + convergence test @ 1400 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.396 = avg([0.39106145251396646, 0.3805932629462041, 0.3852735286492092, 0.42946990116801437])
+[0 : mcmc]  - Convergence of means: R-1 = 112.796016 after 5834 accepted steps = sum([1400, 1514, 1486, 1434])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[2 : mcmc] Progress @ 2020-09-01 13:06:56 : 7815 steps taken, and 1504 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:07:01 : 6825 steps taken, and 1465 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:07:03 : 8091 steps taken, and 1536 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:07:04 : 7308 steps taken, and 1431 accepted.
+[1 : mcmc] Learn + convergence test @ 1540 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Learn + convergence test @ 1540 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:07:56 : 8029 steps taken, and 1551 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:08:01 : 7032 steps taken, and 1504 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:08:04 : 8255 steps taken, and 1568 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:08:05 : 7473 steps taken, and 1451 accepted.
+[3 : mcmc] Learn + convergence test @ 1540 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:08:56 : 8215 steps taken, and 1577 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:09:01 : 7245 steps taken, and 1547 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:09:04 : 8465 steps taken, and 1610 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:09:06 : 7679 steps taken, and 1486 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:09:57 : 8436 steps taken, and 1621 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:10:02 : 7421 steps taken, and 1583 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:10:04 : 8679 steps taken, and 1652 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:10:06 : 7885 steps taken, and 1521 accepted.
+[0 : mcmc] Learn + convergence test @ 1540 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.394 = avg([0.38577154308617234, 0.3793495565158062, 0.38445378151260506, 0.4269005847953216])
+[0 : mcmc]  - Convergence of means: R-1 = 99.239775 after 6461 accepted steps = sum([1540, 1668, 1647, 1606])
+[0 : mcmc] Convergence less than requested for updates: waiting until the next convergence check.
+[1 : mcmc] Learn + convergence test @ 1680 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:10:57 : 8625 steps taken, and 1660 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:11:02 : 7588 steps taken, and 1621 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:11:05 : 8897 steps taken, and 1689 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:11:07 : 8070 steps taken, and 1559 accepted.
+[2 : mcmc] Learn + convergence test @ 1680 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:11:57 : 8835 steps taken, and 1696 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:12:02 : 7781 steps taken, and 1665 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:12:06 : 9118 steps taken, and 1734 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:12:07 : 8241 steps taken, and 1589 accepted.
+[3 : mcmc] Learn + convergence test @ 1680 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:12:57 : 9063 steps taken, and 1738 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:13:02 : 7977 steps taken, and 1700 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:13:06 : 9346 steps taken, and 1775 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:13:08 : 8460 steps taken, and 1629 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:13:57 : 9267 steps taken, and 1776 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:14:02 : 8177 steps taken, and 1743 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:14:06 : 9559 steps taken, and 1820 accepted.
+[1 : mcmc] Learn + convergence test @ 1820 samples accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:14:08 : 8639 steps taken, and 1665 accepted.
+[0 : mcmc] Learn + convergence test @ 1680 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.394 = avg([0.3860294117647059, 0.38062642605268615, 0.38293778062860806, 0.4266763145200193])
+[0 : mcmc]  - Convergence of means: R-1 = 31.794370 after 7075 accepted steps = sum([1680, 1835, 1791, 1769])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[2 : mcmc] Progress @ 2020-09-01 13:14:58 : 9467 steps taken, and 1819 accepted.
+[2 : mcmc] Learn + convergence test @ 1820 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2020-09-01 13:15:03 : 8391 steps taken, and 1803 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:15:07 : 9730 steps taken, and 1858 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:15:08 : 8851 steps taken, and 1710 accepted.
+[3 : mcmc] Learn + convergence test @ 1820 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:15:59 : 9665 steps taken, and 1864 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:16:03 : 8580 steps taken, and 1850 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:16:07 : 9890 steps taken, and 1906 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:16:09 : 9036 steps taken, and 1749 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:16:59 : 9853 steps taken, and 1912 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:17:04 : 8749 steps taken, and 1892 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:17:08 : 10077 steps taken, and 1951 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:17:09 : 9216 steps taken, and 1791 accepted.
+[1 : mcmc] Learn + convergence test @ 1960 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 1820 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.401 = avg([0.38980509745127434, 0.3882121807465619, 0.3888225934765314, 0.43538946420531294])
+[0 : mcmc]  - Convergence of means: R-1 = 29.502919 after 7685 accepted steps = sum([1820, 1976, 1955, 1934])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[2 : mcmc] Learn + convergence test @ 1960 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:18:00 : 10094 steps taken, and 1961 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:18:05 : 8922 steps taken, and 1949 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:18:08 : 10245 steps taken, and 1999 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:18:10 : 9433 steps taken, and 1846 accepted.
+[3 : mcmc] Learn + convergence test @ 1960 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:19:01 : 10318 steps taken, and 2018 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:19:05 : 9061 steps taken, and 2003 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:19:08 : 10453 steps taken, and 2051 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:19:11 : 9609 steps taken, and 1886 accepted.
+[1 : mcmc] Learn + convergence test @ 2100 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:20:01 : 10522 steps taken, and 2071 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:20:06 : 9243 steps taken, and 2063 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:20:09 : 10692 steps taken, and 2117 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:20:12 : 9819 steps taken, and 1939 accepted.
+[0 : mcmc] Learn + convergence test @ 1960 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.409 = avg([0.3958796202787316, 0.3984041566153275, 0.39244294799850354, 0.4477452447104082])
+[0 : mcmc]  - Convergence of means: R-1 = 30.673865 after 8300 accepted steps = sum([1960, 2147, 2098, 2095])
+[0 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[3 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[1 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : mcmc] Learn + convergence test @ 2100 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 2100 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:21:02 : 10778 steps taken, and 2112 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:21:07 : 9442 steps taken, and 2119 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:21:09 : 10894 steps taken, and 2175 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:21:13 : 9992 steps taken, and 1979 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:22:02 : 10967 steps taken, and 2160 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:22:08 : 9628 steps taken, and 2182 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:22:09 : 11092 steps taken, and 2230 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:22:13 : 10209 steps taken, and 2037 accepted.
+[1 : mcmc] Learn + convergence test @ 2240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:23:03 : 11195 steps taken, and 2219 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:23:09 : 9799 steps taken, and 2236 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:23:10 : 11256 steps taken, and 2269 accepted.
+[3 : mcmc] Learn + convergence test @ 2240 samples accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:23:14 : 10341 steps taken, and 2085 accepted.
+[2 : mcmc] Learn + convergence test @ 2240 samples accepted.
+[0 : mcmc] Learn + convergence test @ 2100 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.417 = avg([0.40501446480231434, 0.40434936350777934, 0.39876215738284704, 0.45816409423233145])
+[0 : mcmc]  - Convergence of means: R-1 = 20.926319 after 8898 accepted steps = sum([2100, 2287, 2255, 2256])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[2 : mcmc] Progress @ 2020-09-01 13:24:03 : 11420 steps taken, and 2281 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:24:09 : 9957 steps taken, and 2291 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:24:10 : 11396 steps taken, and 2316 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:24:14 : 10448 steps taken, and 2127 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:25:04 : 11605 steps taken, and 2335 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:25:10 : 10160 steps taken, and 2336 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:25:11 : 11571 steps taken, and 2363 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:25:15 : 10589 steps taken, and 2180 accepted.
+[1 : mcmc] Learn + convergence test @ 2380 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Learn + convergence test @ 2380 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 2380 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:26:05 : 11849 steps taken, and 2405 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:26:11 : 10389 steps taken, and 2396 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:26:11 : 11746 steps taken, and 2424 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:26:15 : 10763 steps taken, and 2228 accepted.
+[0 : mcmc] Learn + convergence test @ 2240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.424 = avg([0.4147380114793557, 0.41392748220942055, 0.4063231850117096, 0.4617434335744195])
+[0 : mcmc]  - Convergence of means: R-1 = 10.396433 after 9538 accepted steps = sum([2240, 2443, 2429, 2426])
+[0 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[3 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[1 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : mcmc] Progress @ 2020-09-01 13:27:05 : 12063 steps taken, and 2454 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:27:11 : 10607 steps taken, and 2449 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:27:12 : 11911 steps taken, and 2477 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:27:16 : 10948 steps taken, and 2281 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:28:05 : 12253 steps taken, and 2509 accepted.
+[1 : mcmc] Learn + convergence test @ 2520 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2020-09-01 13:28:11 : 10814 steps taken, and 2498 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:28:12 : 12046 steps taken, and 2527 accepted.
+[2 : mcmc] Learn + convergence test @ 2520 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2020-09-01 13:28:16 : 11150 steps taken, and 2330 accepted.
+[3 : mcmc] Learn + convergence test @ 2520 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:29:06 : 12435 steps taken, and 2573 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:29:12 : 11008 steps taken, and 2546 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:29:13 : 12197 steps taken, and 2576 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:29:17 : 11307 steps taken, and 2372 accepted.
+[0 : mcmc] Learn + convergence test @ 2380 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.430 = avg([0.41960507757404797, 0.4233349697267223, 0.4153057957092539, 0.4629294755877034])
+[0 : mcmc]  - Convergence of means: R-1 = 7.005219 after 10121 accepted steps = sum([2380, 2587, 2594, 2560])
+[0 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[3 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[1 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : mcmc] Progress @ 2020-09-01 13:30:07 : 12567 steps taken, and 2624 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:30:13 : 11207 steps taken, and 2598 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:30:14 : 12325 steps taken, and 2615 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:30:17 : 11449 steps taken, and 2410 accepted.
+[2 : mcmc] Learn + convergence test @ 2660 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 2660 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:31:07 : 12722 steps taken, and 2676 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:31:13 : 11415 steps taken, and 2651 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:31:15 : 12525 steps taken, and 2671 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:31:17 : 11550 steps taken, and 2440 accepted.
+[3 : mcmc] Learn + convergence test @ 2660 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:32:08 : 12917 steps taken, and 2732 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:32:14 : 11594 steps taken, and 2707 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:32:15 : 12691 steps taken, and 2711 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:32:19 : 11685 steps taken, and 2484 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:33:08 : 13070 steps taken, and 2780 accepted.
+[0 : mcmc] Learn + convergence test @ 2520 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.438 = avg([0.42755344418052255, 0.4282155091871691, 0.4255547054322877, 0.46927947971932227])
+[0 : mcmc]  - Convergence of means: R-1 = 4.458669 after 10793 accepted steps = sum([2520, 2750, 2781, 2742])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[3 : mcmc] Progress @ 2020-09-01 13:33:15 : 11698 steps taken, and 2746 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:33:16 : 12850 steps taken, and 2752 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:33:19 : 11812 steps taken, and 2529 accepted.
+[2 : mcmc] Learn + convergence test @ 2800 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 2800 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:34:09 : 13237 steps taken, and 2827 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:34:16 : 11796 steps taken, and 2782 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:34:16 : 13038 steps taken, and 2809 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:34:20 : 11965 steps taken, and 2572 accepted.
+[3 : mcmc] Learn + convergence test @ 2800 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:35:10 : 13430 steps taken, and 2885 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:35:16 : 11894 steps taken, and 2814 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:35:16 : 13225 steps taken, and 2854 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:35:20 : 12179 steps taken, and 2623 accepted.
+[0 : mcmc] Learn + convergence test @ 2660 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.443 = avg([0.4327314136977387, 0.4338290521255821, 0.4319526627218935, 0.47485380116959064])
+[0 : mcmc]  - Convergence of means: R-1 = 2.986171 after 11310 accepted steps = sum([2660, 2888, 2920, 2842])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[2 : mcmc] Progress @ 2020-09-01 13:36:10 : 13532 steps taken, and 2925 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:36:16 : 11987 steps taken, and 2849 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:36:17 : 13335 steps taken, and 2894 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:36:21 : 12321 steps taken, and 2666 accepted.
+[2 : mcmc] Learn + convergence test @ 2940 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:37:10 : 13630 steps taken, and 2965 accepted.
+[1 : mcmc] Learn + convergence test @ 2940 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2020-09-01 13:37:16 : 12096 steps taken, and 2884 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:37:18 : 13435 steps taken, and 2941 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:37:22 : 12528 steps taken, and 2726 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:38:10 : 13764 steps taken, and 3009 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:38:17 : 12198 steps taken, and 2923 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:38:19 : 13557 steps taken, and 2982 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:38:22 : 12711 steps taken, and 2785 accepted.
+[0 : mcmc] Learn + convergence test @ 2800 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 2940 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.449 = avg([0.4384976525821596, 0.4403105317123187, 0.43823953823953826, 0.4800783801436969])
+[0 : mcmc]  - Convergence of means: R-1 = 2.248143 after 11785 accepted steps = sum([2802, 3006, 3037, 2940])
+[0 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[3 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[1 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : mcmc] Progress @ 2020-09-01 13:39:11 : 13926 steps taken, and 3057 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:39:18 : 12290 steps taken, and 2957 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:39:19 : 13762 steps taken, and 3034 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:39:23 : 12905 steps taken, and 2830 accepted.
+[2 : mcmc] Learn + convergence test @ 3080 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 3080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:40:11 : 14092 steps taken, and 3095 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:40:19 : 12390 steps taken, and 2993 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:40:20 : 13938 steps taken, and 3090 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:40:23 : 13105 steps taken, and 2880 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:41:12 : 14269 steps taken, and 3138 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:41:19 : 12484 steps taken, and 3030 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:41:21 : 14092 steps taken, and 3143 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:41:23 : 13249 steps taken, and 2920 accepted.
+[0 : mcmc] Learn + convergence test @ 2940 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:42:14 : 14428 steps taken, and 3183 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:42:19 : 12598 steps taken, and 3061 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:42:21 : 14231 steps taken, and 3184 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:42:24 : 13346 steps taken, and 2961 accepted.
+[3 : mcmc] Learn + convergence test @ 3080 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.455 = avg([0.44474353222670854, 0.44719541194572665, 0.44272702180513385, 0.48672566371681414])
+[0 : mcmc]  - Convergence of means: R-1 = 1.646157 after 12459 accepted steps = sum([2974, 3197, 3208, 3080])
+[0 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[3 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[1 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[2 : mcmc] Learn + convergence test @ 3220 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:43:14 : 14565 steps taken, and 3229 accepted.
+[1 : mcmc] Learn + convergence test @ 3220 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2020-09-01 13:43:20 : 12770 steps taken, and 3109 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:43:21 : 14382 steps taken, and 3224 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:43:24 : 13442 steps taken, and 3000 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:44:14 : 14704 steps taken, and 3272 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:44:21 : 12932 steps taken, and 3147 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:44:22 : 14565 steps taken, and 3273 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:44:25 : 13554 steps taken, and 3036 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:45:14 : 14818 steps taken, and 3319 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:45:21 : 13086 steps taken, and 3202 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:45:22 : 14676 steps taken, and 3308 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:45:26 : 13669 steps taken, and 3074 accepted.
+[0 : mcmc] Learn + convergence test @ 3080 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 3220 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.460 = avg([0.45055425904317387, 0.4519282998370451, 0.44943669527896996, 0.48995739500912966])
+[0 : mcmc]  - Convergence of means: R-1 = 1.255377 after 12988 accepted steps = sum([3089, 3328, 3351, 3220])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[2 : mcmc] Learn + convergence test @ 3360 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:46:15 : 14988 steps taken, and 3370 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:46:21 : 13202 steps taken, and 3234 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:46:22 : 14803 steps taken, and 3351 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:46:27 : 13788 steps taken, and 3120 accepted.
+[1 : mcmc] Learn + convergence test @ 3360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:47:15 : 15161 steps taken, and 3414 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:47:22 : 13338 steps taken, and 3278 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:47:22 : 14971 steps taken, and 3396 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:47:28 : 13935 steps taken, and 3169 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:48:15 : 15276 steps taken, and 3448 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:48:22 : 13451 steps taken, and 3319 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:48:22 : 15163 steps taken, and 3454 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:48:29 : 14058 steps taken, and 3207 accepted.
+[0 : mcmc] Learn + convergence test @ 3220 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Learn + convergence test @ 3360 samples accepted.
+[3 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.465 = avg([0.45800339366515835, 0.45626879330631454, 0.45222682547902643, 0.4942630185348632])
+[0 : mcmc]  - Convergence of means: R-1 = 1.087880 after 13582 accepted steps = sum([3239, 3490, 3493, 3360])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Learn + convergence test @ 3500 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[2 : mcmc] Progress @ 2020-09-01 13:49:16 : 15464 steps taken, and 3499 accepted.
+[2 : mcmc] Learn + convergence test @ 3500 samples accepted.
+[2 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[3 : mcmc] Progress @ 2020-09-01 13:49:22 : 13645 steps taken, and 3370 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:49:23 : 15349 steps taken, and 3507 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:49:30 : 14215 steps taken, and 3255 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:50:16 : 15595 steps taken, and 3541 accepted.
+[3 : mcmc] Progress @ 2020-09-01 13:50:23 : 13802 steps taken, and 3409 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:50:24 : 15518 steps taken, and 3553 accepted.
+[0 : mcmc] Progress @ 2020-09-01 13:50:30 : 14360 steps taken, and 3298 accepted.
+[2 : mcmc] Progress @ 2020-09-01 13:51:16 : 15762 steps taken, and 3591 accepted.
+[1 : mcmc] Progress @ 2020-09-01 13:51:24 : 15648 steps taken, and 3592 accepted.
+slurmstepd: error: Detected 1 oom-kill event(s) in step 84978.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: d05-15: task 3: Out Of Memory
+[0 : mcmc] Progress @ 2020-09-01 13:51:30 : 14539 steps taken, and 3354 accepted.
+[0 : mcmc] Learn + convergence test @ 3360 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+----
+clik version 3be036bbb4f9
+  plik_cmbonly
+Checking likelihood '/home1/davidvng/repos/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+Checking lensing likelihood '/home1/davidvng/repos/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+[d05-12:19602:0:19602] rc_verbs_iface.c:65   send completion with error: transport retry counter exceeded qpn 0x1936e wrid 0x19 vendor_err 0x81
+slurmstepd: error: Detected 1 oom-kill event(s) in step 84978.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in step 84978.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+==== backtrace (tid:  19602) ====
+ 0 0x00000000000532a3 ucs_debug_print_backtrace()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/ucs/debug/debug.c:625
+ 1 0x000000000002659b uct_rc_verbs_handle_failure()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/ib/rc/verbs/rc_verbs_iface.c:63
+ 2 0x0000000000026b7d uct_rc_verbs_iface_poll_tx()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/ib/rc/verbs/rc_verbs_iface.c:104
+ 3 0x0000000000026b7d uct_rc_verbs_iface_progress()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/ib/rc/verbs/rc_verbs_iface.c:132
+ 4 0x000000000002a95a ucs_callbackq_dispatch()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/ucs/datastruct/callbackq.h:211
+ 5 0x000000000002a95a uct_worker_progress()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/api/uct.h:2221
+ 6 0x000000000002a95a ucp_worker_progress()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/ucp/core/ucp_worker.c:1951
+ 7 0x00000000001c3da7 mca_pml_ucx_progress()  ???:0
+ 8 0x0000000000059b3c opal_progress()  ???:0
+ 9 0x00000000000770cd ompi_request_default_test()  ???:0
+10 0x00000000000b513e MPI_Test()  ???:0
+11 0x0000000000084f89 __pyx_pf_6mpi4py_3MPI_7Request_10Test()  /tmp/pip-install-gm3_9gqw/mpi4py/src/mpi4py.MPI.c:80372
+12 0x0000000000084f89 __pyx_pf_6mpi4py_3MPI_7Request_10Test()  /tmp/pip-install-gm3_9gqw/mpi4py/src/mpi4py.MPI.c:80372
+13 0x0000000000084f89 __pyx_pw_6mpi4py_3MPI_7Request_11Test()  /tmp/pip-install-gm3_9gqw/mpi4py/src/mpi4py.MPI.c:80311
+14 0x000000000017b3fe method_vectorcall_VARARGS_KEYWORDS()  /tmp/build/80754af9/python_1578519979997/work/Objects/descrobject.c:332
+15 0x00000000001e3c49 _PyObject_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Include/cpython/abstract.h:127
+16 0x00000000001e3c49 call_function()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:4987
+17 0x00000000001e3c49 _PyEval_EvalFrameDefault()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:3486
+18 0x000000000019140b function_code_fastcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:283
+19 0x000000000019140b _PyFunction_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:410
+20 0x00000000001e3c49 _PyObject_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Include/cpython/abstract.h:127
+21 0x00000000001e3c49 call_function()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:4987
+22 0x00000000001e3c49 _PyEval_EvalFrameDefault()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:3486
+23 0x000000000019140b function_code_fastcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:283
+24 0x000000000019140b _PyFunction_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:410
+25 0x00000000001e3c49 _PyObject_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Include/cpython/abstract.h:127
+26 0x00000000001e3c49 call_function()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:4987
+27 0x00000000001e3c49 _PyEval_EvalFrameDefault()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:3486
+28 0x000000000019140b function_code_fastcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:283
+29 0x000000000019140b _PyFunction_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:410
+30 0x00000000001e3c49 _PyObject_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Include/cpython/abstract.h:127
+31 0x00000000001e3c49 call_function()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:4987
+32 0x00000000001e3c49 _PyEval_EvalFrameDefault()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:3486
+33 0x000000000019140b function_code_fastcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:283
+34 0x000000000019140b _PyFunction_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Objects/call.c:410
+35 0x00000000001e3e91 _PyObject_Vectorcall()  /tmp/build/80754af9/python_1578519979997/work/Include/cpython/abstract.h:127
+36 0x00000000001e3e91 call_function()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:4987
+37 0x00000000001e3e91 _PyEval_EvalFrameDefault()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:3500
+38 0x00000000001905f4 _PyEval_EvalCodeWithName()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:4298
+39 0x00000000001912d4 PyEval_EvalCodeEx()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:4327
+40 0x00000000001912fc PyEval_EvalCode()  /tmp/build/80754af9/python_1578519979997/work/Python/ceval.c:718
+41 0x0000000000231944 run_eval_code_obj()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:1125
+42 0x000000000025de74 run_mod()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:1147
+43 0x000000000025de74 run_mod()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:1148
+44 0x00000000002606f1 PyRun_FileExFlags()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:1063
+45 0x00000000002608e1 PyRun_SimpleFileExFlags()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:428
+46 0x00000000002614ed pymain_run_file()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:387
+47 0x00000000002614ed _Py_XDECREF()  /tmp/build/80754af9/python_1578519979997/work/Include/object.h:541
+48 0x00000000002614ed pymain_run_file()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:388
+49 0x00000000002614ed pymain_run_python()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:571
+50 0x00000000002614ed Py_RunMain()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:650
+51 0x00000000002616e9 Py_BytesMain()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:1082
+52 0x0000000000022555 __libc_start_main()  ???:0
+53 0x0000000000201c13 _start()  /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/src/glibc-2.12.2/csu/../sysdeps/x86_64/elf/start.S:103
+=================================
+[d05-12:19602] *** Process received signal ***
+[d05-12:19602] Signal: Aborted (6)
+[d05-12:19602] Signal code:  (-6)
+[d05-12:19602] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f4eaf4fc630]
+[d05-12:19602] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f4eaf155387]
+[d05-12:19602] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f4eaf156a78]
+[d05-12:19602] [ 3] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucs.so.0(ucs_fatal_error_message+0x55)[0x7f4e57742105]
+[d05-12:19602] [ 4] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucs.so.0(+0x56b92)[0x7f4e57746b92]
+[d05-12:19602] [ 5] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucs.so.0(ucs_log_dispatch+0xc4)[0x7f4e57746cb4]
+[d05-12:19602] [ 6] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/ucx/libuct_ib.so.0(+0x2659b)[0x7f4e4f48f59b]
+[d05-12:19602] [ 7] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/ucx/libuct_ib.so.0(+0x26b7d)[0x7f4e4f48fb7d]
+[d05-12:19602] [ 8] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucp.so.0(ucp_worker_progress+0x6a)[0x7f4e57cc395a]
+[d05-12:19602] [ 9] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libmpi.so.40(mca_pml_ucx_progress+0x17)[0x7f4e588ebda7]
+[d05-12:19602] [10] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libopen-pal.so.40(opal_progress+0x2c)[0x7f4e57f89b3c]
+[d05-12:19602] [11] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libmpi.so.40(ompi_request_default_test+0x2d)[0x7f4e5879f0cd]
+[d05-12:19602] [12] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libmpi.so.40(MPI_Test+0x4e)[0x7f4e587dd13e]
+[d05-12:19602] [13] /home1/davidvng/miniconda3/envs/dmeff-dev/lib/python3.8/site-packages/mpi4py/MPI.cpython-38-x86_64-linux-gnu.so(+0x84f89)[0x7f4e58c5bf89]
+[d05-12:19602] [14] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(+0x17b3fe)[0x558b820843fe]
+[d05-12:19602] [15] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyEval_EvalFrameDefault+0x499)[0x558b820ecc49]
+[d05-12:19602] [16] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyFunction_Vectorcall+0xfb)[0x558b8209a40b]
+[d05-12:19602] [17] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyEval_EvalFrameDefault+0x499)[0x558b820ecc49]
+[d05-12:19602] [18] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyFunction_Vectorcall+0xfb)[0x558b8209a40b]
+[d05-12:19602] [19] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyEval_EvalFrameDefault+0x499)[0x558b820ecc49]
+[d05-12:19602] [20] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyFunction_Vectorcall+0xfb)[0x558b8209a40b]
+[d05-12:19602] [21] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyEval_EvalFrameDefault+0x499)[0x558b820ecc49]
+[d05-12:19602] [22] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyFunction_Vectorcall+0xfb)[0x558b8209a40b]
+[d05-12:19602] [23] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyEval_EvalFrameDefault+0x6e1)[0x558b820ece91]
+[d05-12:19602] [24] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(_PyEval_EvalCodeWithName+0x2e4)[0x558b820995f4]
+[d05-12:19602] [25] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(PyEval_EvalCodeEx+0x44)[0x558b8209a2d4]
+[d05-12:19602] [26] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(PyEval_EvalCode+0x1c)[0x558b8209a2fc]
+[d05-12:19602] [27] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(+0x231944)[0x558b8213a944]
+[d05-12:19602] [28] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(+0x25de74)[0x558b82166e74]
+[d05-12:19602] [29] /home1/davidvng/miniconda3/envs/dmeff-dev/bin/python3(PyRun_FileExFlags+0xa1)[0x558b821696f1]
+[d05-12:19602] *** End of error message ***
+srun: error: d05-12: task 0: Aborted
