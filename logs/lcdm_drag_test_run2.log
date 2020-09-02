@@ -1,0 +1,68 @@
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_drag_lcdm_test'
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_drag_lcdm_test'
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_drag_lcdm_test'
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_drag_lcdm_test'
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_drag_lcdm_test'
+[output] Let's try to resume/load.
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_drag_lcdm_test'
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_drag_lcdm_test'
+[output] Let's try to resume/load.
+[output] Let's try to resume/load.
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_drag_lcdm_test'
+[output] Let's try to resume/load.
+[output] Found an old sample. Resuming.
+[output] Found an old sample. Resuming.
+[output] Found an old sample. Resuming.
+[output] Found an old sample. Resuming.
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[mcmc] Resuming from previous sample!
+[mcmc] *ERROR* Cannot resume a run with a different number of chains: was 4 and now is 1.
+[mcmc] Resuming from previous sample!
+[mcmc] *ERROR* Cannot resume a run with a different number of chains: was 4 and now is 1.
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[mcmc] Resuming from previous sample!
+[mcmc] *ERROR* Cannot resume a run with a different number of chains: was 4 and now is 1.
+[mcmc] Resuming from previous sample!
+[mcmc] *ERROR* Cannot resume a run with a different number of chains: was 4 and now is 1.
+----
+clik version 3be036bbb4f9
+  plik_cmbonly
+Checking likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+Checking lensing likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+clik version 3be036bbb4f9
+  plik_cmbonly
+Checking likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+Checking lensing likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+clik version 3be036bbb4f9
+  plik_cmbonly
+Checking likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+Checking lensing likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+clik version 3be036bbb4f9
+  plik_cmbonly
+Checking likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+Checking lensing likelihood '/home1/sarnaaik/Repo/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+srun: error: d0041: task 1: Exited with exit code 1
+srun: error: d0047: task 3: Exited with exit code 1
+srun: error: d0040: task 0: Exited with exit code 1
+srun: error: d0042: task 2: Exited with exit code 1

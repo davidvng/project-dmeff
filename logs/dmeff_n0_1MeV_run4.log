@@ -1,0 +1,148 @@
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_n0_1MeV'
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_n0_1MeV'
+[output] Let's try to resume/load.
+[output] Found an old sample. Resuming.
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[mcmc] Resuming from previous sample!
+[collection] Loaded 10459 samples from 'chains/dmeff_n0_1MeV.1.txt'
+[mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[mcmc] Oversampling with factors:
+[mcmc] * 1 : ['logA', 'n_s', 'theta_s_1e2', 'omega_b', 'omega_dmeff', 'sigma_dmeff', 'tau_reio']
+[mcmc] * 8 : ['A_planck']
+[mcmc] Covariance matrix from checkpoint.
+[mcmc] Initial point: logA:3.073309, n_s:0.9613742, theta_s_1e2:1.042166, omega_b:0.022302, omega_dmeff:0.1204141, sigma_dmeff:1.448144e-26, tau_reio:0.07670254, A_planck:0.9924985
+[mcmc] Sampling!
+[mcmc] Progress @ 2020-08-04 06:42:18 : 1 steps taken, and 10459 accepted.
+[mcmc] Progress @ 2020-08-04 06:43:18 : 135 steps taken, and 10498 accepted.
+[mcmc] Progress @ 2020-08-04 06:44:19 : 263 steps taken, and 10542 accepted.
+[mcmc] Progress @ 2020-08-04 06:45:20 : 444 steps taken, and 10587 accepted.
+[mcmc] Progress @ 2020-08-04 06:46:21 : 588 steps taken, and 10636 accepted.
+[mcmc] Learn + convergence test @ 10640 samples accepted.
+[mcmc]  - Acceptance rate: 0.696
+[mcmc]  - Convergence of means: R-1 = 0.328620 after 10640 accepted steps
+[blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[mcmc] Progress @ 2020-08-04 06:47:21 : 711 steps taken, and 10679 accepted.
+[mcmc] Progress @ 2020-08-04 06:48:22 : 858 steps taken, and 10726 accepted.
+[mcmc] Progress @ 2020-08-04 06:49:23 : 1000 steps taken, and 10768 accepted.
+[mcmc] Progress @ 2020-08-04 06:50:23 : 1119 steps taken, and 10806 accepted.
+[mcmc] Progress @ 2020-08-04 06:51:24 : 1240 steps taken, and 10851 accepted.
+[mcmc] Progress @ 2020-08-04 06:52:24 : 1389 steps taken, and 10901 accepted.
+[mcmc] Learn + convergence test @ 10920 samples accepted.
+[mcmc]  - Acceptance rate: 0.695
+[mcmc]  - Convergence of means: R-1 = 0.228569 after 10920 accepted steps
+[blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[mcmc] Progress @ 2020-08-04 06:53:24 : 1507 steps taken, and 10936 accepted.
+[mcmc] Progress @ 2020-08-04 06:54:25 : 1655 steps taken, and 10986 accepted.
+[mcmc] Progress @ 2020-08-04 06:55:26 : 1789 steps taken, and 11029 accepted.
+[mcmc] Progress @ 2020-08-04 06:56:26 : 1921 steps taken, and 11068 accepted.
+[mcmc] Progress @ 2020-08-04 06:57:26 : 2056 steps taken, and 11118 accepted.
+[mcmc] Progress @ 2020-08-04 06:58:26 : 2191 steps taken, and 11162 accepted.
+[mcmc] Learn + convergence test @ 11200 samples accepted.
+[mcmc]  - Acceptance rate: 0.694
+[mcmc]  - Convergence of means: R-1 = 0.196619 after 11200 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-04 06:59:26 : 2318 steps taken, and 11212 accepted.
+[mcmc] Progress @ 2020-08-04 07:00:27 : 2473 steps taken, and 11268 accepted.
+[mcmc] Progress @ 2020-08-04 07:01:28 : 2580 steps taken, and 11309 accepted.
+[mcmc] Progress @ 2020-08-04 07:02:28 : 2716 steps taken, and 11355 accepted.
+[mcmc] Progress @ 2020-08-04 07:03:28 : 2859 steps taken, and 11400 accepted.
+[mcmc] Progress @ 2020-08-04 07:04:29 : 2986 steps taken, and 11443 accepted.
+[mcmc] Learn + convergence test @ 11480 samples accepted.
+[mcmc]  - Acceptance rate: 0.695
+[mcmc]  - Convergence of means: R-1 = 0.143164 after 11480 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-04 07:05:29 : 3109 steps taken, and 11490 accepted.
+[mcmc] Progress @ 2020-08-04 07:06:30 : 3246 steps taken, and 11541 accepted.
+[mcmc] Progress @ 2020-08-04 07:07:30 : 3360 steps taken, and 11577 accepted.
+[mcmc] Progress @ 2020-08-04 07:08:31 : 3476 steps taken, and 11622 accepted.
+[mcmc] Progress @ 2020-08-04 07:09:31 : 3615 steps taken, and 11671 accepted.
+[mcmc] Progress @ 2020-08-04 07:10:31 : 3771 steps taken, and 11724 accepted.
+[mcmc] Learn + convergence test @ 11760 samples accepted.
+[mcmc]  - Acceptance rate: 0.695
+[mcmc]  - Convergence of means: R-1 = 0.100009 after 11760 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-04 07:11:31 : 3900 steps taken, and 11770 accepted.
+[mcmc] Progress @ 2020-08-04 07:12:33 : 4031 steps taken, and 11811 accepted.
+[mcmc] Progress @ 2020-08-04 07:13:34 : 4202 steps taken, and 11866 accepted.
+[mcmc] Progress @ 2020-08-04 07:14:34 : 4327 steps taken, and 11917 accepted.
+[mcmc] Progress @ 2020-08-04 07:15:34 : 4438 steps taken, and 11959 accepted.
+[mcmc] Progress @ 2020-08-04 07:16:35 : 4545 steps taken, and 11996 accepted.
+[mcmc] Learn + convergence test @ 12040 samples accepted.
+[mcmc]  - Acceptance rate: 0.695
+[mcmc]  - Convergence of means: R-1 = 0.108910 after 12040 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-04 07:17:35 : 4682 steps taken, and 12045 accepted.
+[mcmc] Progress @ 2020-08-04 07:18:35 : 4827 steps taken, and 12094 accepted.
+[mcmc] Progress @ 2020-08-04 07:19:36 : 4957 steps taken, and 12143 accepted.
+[mcmc] Progress @ 2020-08-04 07:20:36 : 5089 steps taken, and 12185 accepted.
+[mcmc] Progress @ 2020-08-04 07:21:36 : 5199 steps taken, and 12226 accepted.
+[mcmc] Progress @ 2020-08-04 07:22:37 : 5308 steps taken, and 12266 accepted.
+[mcmc] Progress @ 2020-08-04 07:23:37 : 5449 steps taken, and 12313 accepted.
+[mcmc] Learn + convergence test @ 12320 samples accepted.
+[mcmc]  - Acceptance rate: 0.695
+[mcmc]  - Convergence of means: R-1 = 0.059007 after 12320 accepted steps
+[blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[mcmc] Progress @ 2020-08-04 07:24:37 : 5570 steps taken, and 12355 accepted.
+[mcmc] Progress @ 2020-08-04 07:25:38 : 5737 steps taken, and 12410 accepted.
+[mcmc] Progress @ 2020-08-04 07:26:38 : 5856 steps taken, and 12452 accepted.
+[mcmc] Progress @ 2020-08-04 07:27:39 : 6006 steps taken, and 12501 accepted.
+[mcmc] Progress @ 2020-08-04 07:28:39 : 6122 steps taken, and 12539 accepted.
+[mcmc] Progress @ 2020-08-04 07:29:39 : 6258 steps taken, and 12590 accepted.
+[mcmc] Learn + convergence test @ 12600 samples accepted.
+[mcmc]  - Acceptance rate: 0.695
+[mcmc]  - Convergence of means: R-1 = 0.068001 after 12600 accepted steps
+[blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[mcmc] Progress @ 2020-08-04 07:30:39 : 6424 steps taken, and 12639 accepted.
+[mcmc] Progress @ 2020-08-04 07:31:39 : 6590 steps taken, and 12683 accepted.
+[mcmc] Progress @ 2020-08-04 07:32:40 : 6727 steps taken, and 12725 accepted.
+[mcmc] Progress @ 2020-08-04 07:33:40 : 6862 steps taken, and 12766 accepted.
+[mcmc] Progress @ 2020-08-04 07:34:40 : 6981 steps taken, and 12805 accepted.
+[mcmc] Progress @ 2020-08-04 07:35:41 : 7102 steps taken, and 12842 accepted.
+[mcmc] Learn + convergence test @ 12880 samples accepted.
+[mcmc]  - Acceptance rate: 0.693
+[mcmc]  - Convergence of means: R-1 = 0.054180 after 12880 accepted steps
+[blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[mcmc] Progress @ 2020-08-04 07:36:41 : 7247 steps taken, and 12893 accepted.
+[mcmc] Progress @ 2020-08-04 07:37:41 : 7376 steps taken, and 12930 accepted.
+[mcmc] Progress @ 2020-08-04 07:38:41 : 7507 steps taken, and 12978 accepted.
+[mcmc] Progress @ 2020-08-04 07:39:42 : 7642 steps taken, and 13019 accepted.
+[mcmc] Progress @ 2020-08-04 07:40:42 : 7749 steps taken, and 13052 accepted.
+[mcmc] Progress @ 2020-08-04 07:41:43 : 7875 steps taken, and 13096 accepted.
+[mcmc] Progress @ 2020-08-04 07:42:43 : 8015 steps taken, and 13142 accepted.
+[mcmc] Learn + convergence test @ 13160 samples accepted.
+[mcmc]  - Acceptance rate: 0.692
+[mcmc]  - Convergence of means: R-1 = 0.060052 after 13160 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-04 07:43:44 : 8126 steps taken, and 13184 accepted.
+[mcmc] Progress @ 2020-08-04 07:44:45 : 8282 steps taken, and 13241 accepted.
+[mcmc] Progress @ 2020-08-04 07:45:45 : 8380 steps taken, and 13272 accepted.
+[mcmc] Progress @ 2020-08-04 07:46:45 : 8478 steps taken, and 13306 accepted.
+[mcmc] Progress @ 2020-08-04 07:47:45 : 8601 steps taken, and 13351 accepted.
+[mcmc] Progress @ 2020-08-04 07:48:46 : 8713 steps taken, and 13382 accepted.
+[mcmc] Progress @ 2020-08-04 07:49:46 : 8818 steps taken, and 13421 accepted.
+[mcmc] Learn + convergence test @ 13440 samples accepted.
+[mcmc]  - Acceptance rate: 0.692
+[mcmc]  - Convergence of means: R-1 = 0.055027 after 13440 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-04 07:50:47 : 8926 steps taken, and 13459 accepted.
+[mcmc] Progress @ 2020-08-04 07:51:47 : 9029 steps taken, and 13495 accepted.
+[mcmc] Progress @ 2020-08-04 07:52:47 : 9159 steps taken, and 13546 accepted.
+[mcmc] Progress @ 2020-08-04 07:53:47 : 9268 steps taken, and 13586 accepted.
+[mcmc] Progress @ 2020-08-04 07:54:47 : 9370 steps taken, and 13620 accepted.
+[mcmc] Progress @ 2020-08-04 07:55:48 : 9473 steps taken, and 13653 accepted.
+[mcmc] Progress @ 2020-08-04 07:56:49 : 9610 steps taken, and 13701 accepted.
+[mcmc] Learn + convergence test @ 13720 samples accepted.
+[mcmc]  - Acceptance rate: 0.693
+[mcmc]  - Convergence of means: R-1 = 0.047849 after 13720 accepted steps
+[blockedproposer] *ERROR* The given covmat is not a positive-definite, symmetric square matrix.
+[mcmc] Progress @ 2020-08-04 07:57:49 : 9723 steps taken, and 13741 accepted.
+[mcmc] Progress @ 2020-08-04 07:58:49 : 9833 steps taken, and 13780 accepted.
+[mcmc] Progress @ 2020-08-04 07:59:49 : 9960 steps taken, and 13820 accepted.
+[mcmc] Progress @ 2020-08-04 08:00:49 : 10077 steps taken, and 13856 accepted.
+[mcmc] Progress @ 2020-08-04 08:01:49 : 10183 steps taken, and 13898 accepted.
+slurmstepd: error: Detected 10 oom-kill event(s) in step 24182.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: d0050: task 0: Out Of Memory
+slurmstepd: error: Detected 10 oom-kill event(s) in step 24182.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

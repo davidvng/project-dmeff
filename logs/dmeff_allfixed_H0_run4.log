@@ -1,0 +1,143 @@
+[output] Output to be read-from/written-into folder 'chains', with prefix 'dmeff_allfixed_H0'
+[output] Found existing info files with the requested output prefix: 'chains/dmeff_allfixed_H0'
+[output] Let's try to resume/load.
+[output] Found an old sample. Resuming.
+[classy] Importing *local* classy from /home1/sarnaaik/Repo/dmeff/class_dmeff
+[planck_2018_highl_plik.ttteee_lite] Importing clik from /home1/sarnaaik/Repo/code/planck
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[mcmc] Resuming from previous sample!
+[collection] Loaded 9742 samples from 'chains/dmeff_allfixed_H0.1.txt'
+[mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[mcmc] Oversampling with factors:
+[mcmc] * 1 : ['logA', 'n_s', 'theta_s_1e2', 'omega_b', 'omega_dmeff', 'tau_reio']
+[mcmc] * 8 : ['A_planck']
+[mcmc] Covariance matrix from checkpoint.
+[mcmc] Initial point: logA:3.117146, n_s:0.9771757, theta_s_1e2:1.041698, omega_b:0.02264042, omega_dmeff:0.1172389, tau_reio:0.09747147, A_planck:0.998618
+[mcmc] Sampling!
+[mcmc] Progress @ 2020-08-02 11:01:23 : 1 steps taken, and 9742 accepted.
+[mcmc] Progress @ 2020-08-02 11:02:23 : 131 steps taken, and 9790 accepted.
+[mcmc] Learn + convergence test @ 9800 samples accepted.
+[mcmc]  - Acceptance rate: 0.705
+[mcmc]  - Convergence of means: R-1 = 0.024155 after 9800 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:03:24 : 256 steps taken, and 9835 accepted.
+[mcmc] Progress @ 2020-08-02 11:04:25 : 386 steps taken, and 9882 accepted.
+[mcmc] Progress @ 2020-08-02 11:05:26 : 509 steps taken, and 9915 accepted.
+[mcmc] Progress @ 2020-08-02 11:06:27 : 638 steps taken, and 9960 accepted.
+[mcmc] Progress @ 2020-08-02 11:07:27 : 764 steps taken, and 10011 accepted.
+[mcmc] Progress @ 2020-08-02 11:08:27 : 897 steps taken, and 10064 accepted.
+[mcmc] Learn + convergence test @ 10080 samples accepted.
+[mcmc]  - Acceptance rate: 0.705
+[mcmc]  - Convergence of means: R-1 = 0.019061 after 10080 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:09:28 : 1030 steps taken, and 10114 accepted.
+[mcmc] Progress @ 2020-08-02 11:10:28 : 1150 steps taken, and 10156 accepted.
+[mcmc] Progress @ 2020-08-02 11:11:28 : 1277 steps taken, and 10200 accepted.
+[mcmc] Progress @ 2020-08-02 11:12:29 : 1407 steps taken, and 10244 accepted.
+[mcmc] Progress @ 2020-08-02 11:13:30 : 1536 steps taken, and 10285 accepted.
+[mcmc] Progress @ 2020-08-02 11:14:31 : 1666 steps taken, and 10331 accepted.
+[mcmc] Learn + convergence test @ 10360 samples accepted.
+[mcmc]  - Acceptance rate: 0.705
+[mcmc]  - Convergence of means: R-1 = 0.017188 after 10360 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:15:31 : 1796 steps taken, and 10380 accepted.
+[mcmc] Progress @ 2020-08-02 11:16:31 : 1924 steps taken, and 10422 accepted.
+[mcmc] Progress @ 2020-08-02 11:17:32 : 2047 steps taken, and 10468 accepted.
+[mcmc] Progress @ 2020-08-02 11:18:33 : 2172 steps taken, and 10503 accepted.
+[mcmc] Progress @ 2020-08-02 11:19:33 : 2291 steps taken, and 10536 accepted.
+[mcmc] Progress @ 2020-08-02 11:20:33 : 2426 steps taken, and 10583 accepted.
+[mcmc] Progress @ 2020-08-02 11:21:33 : 2550 steps taken, and 10627 accepted.
+[mcmc] Learn + convergence test @ 10640 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.029400 after 10640 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:22:33 : 2676 steps taken, and 10672 accepted.
+[mcmc] Progress @ 2020-08-02 11:23:33 : 2800 steps taken, and 10722 accepted.
+[mcmc] Progress @ 2020-08-02 11:24:33 : 2920 steps taken, and 10761 accepted.
+[mcmc] Progress @ 2020-08-02 11:25:33 : 3048 steps taken, and 10807 accepted.
+[mcmc] Progress @ 2020-08-02 11:26:34 : 3176 steps taken, and 10851 accepted.
+[mcmc] Progress @ 2020-08-02 11:27:34 : 3304 steps taken, and 10898 accepted.
+[mcmc] Learn + convergence test @ 10920 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.032481 after 10920 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:28:34 : 3430 steps taken, and 10943 accepted.
+[mcmc] Progress @ 2020-08-02 11:29:35 : 3563 steps taken, and 10990 accepted.
+[mcmc] Progress @ 2020-08-02 11:30:37 : 3689 steps taken, and 11031 accepted.
+[mcmc] Progress @ 2020-08-02 11:31:37 : 3821 steps taken, and 11080 accepted.
+[mcmc] Progress @ 2020-08-02 11:32:38 : 3943 steps taken, and 11127 accepted.
+[mcmc] Progress @ 2020-08-02 11:33:39 : 4076 steps taken, and 11175 accepted.
+[mcmc] Learn + convergence test @ 11200 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.042389 after 11200 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:34:39 : 4203 steps taken, and 11218 accepted.
+[mcmc] Progress @ 2020-08-02 11:35:39 : 4330 steps taken, and 11260 accepted.
+[mcmc] Progress @ 2020-08-02 11:36:39 : 4457 steps taken, and 11302 accepted.
+[mcmc] Progress @ 2020-08-02 11:37:39 : 4592 steps taken, and 11349 accepted.
+[mcmc] Progress @ 2020-08-02 11:38:40 : 4720 steps taken, and 11388 accepted.
+[mcmc] Progress @ 2020-08-02 11:39:40 : 4844 steps taken, and 11435 accepted.
+[mcmc] Learn + convergence test @ 11480 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.038088 after 11480 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:40:40 : 4970 steps taken, and 11482 accepted.
+[mcmc] Progress @ 2020-08-02 11:41:41 : 5095 steps taken, and 11521 accepted.
+[mcmc] Progress @ 2020-08-02 11:42:42 : 5226 steps taken, and 11564 accepted.
+[mcmc] Progress @ 2020-08-02 11:43:42 : 5354 steps taken, and 11614 accepted.
+[mcmc] Progress @ 2020-08-02 11:44:42 : 5483 steps taken, and 11661 accepted.
+[mcmc] Progress @ 2020-08-02 11:45:42 : 5607 steps taken, and 11703 accepted.
+[mcmc] Progress @ 2020-08-02 11:46:42 : 5735 steps taken, and 11756 accepted.
+[mcmc] Learn + convergence test @ 11760 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.045380 after 11760 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:47:42 : 5863 steps taken, and 11804 accepted.
+[mcmc] Progress @ 2020-08-02 11:48:42 : 5984 steps taken, and 11846 accepted.
+[mcmc] Progress @ 2020-08-02 11:49:43 : 6109 steps taken, and 11892 accepted.
+[mcmc] Progress @ 2020-08-02 11:50:43 : 6231 steps taken, and 11934 accepted.
+[mcmc] Progress @ 2020-08-02 11:51:43 : 6353 steps taken, and 11977 accepted.
+[mcmc] Progress @ 2020-08-02 11:52:43 : 6486 steps taken, and 12023 accepted.
+[mcmc] Learn + convergence test @ 12040 samples accepted.
+[mcmc]  - Acceptance rate: 0.705
+[mcmc]  - Convergence of means: R-1 = 0.062474 after 12040 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 11:53:44 : 6604 steps taken, and 12065 accepted.
+[mcmc] Progress @ 2020-08-02 11:54:44 : 6731 steps taken, and 12108 accepted.
+[mcmc] Progress @ 2020-08-02 11:55:44 : 6856 steps taken, and 12155 accepted.
+[mcmc] Progress @ 2020-08-02 11:56:44 : 6981 steps taken, and 12191 accepted.
+[mcmc] Progress @ 2020-08-02 11:57:44 : 7105 steps taken, and 12233 accepted.
+[mcmc] Progress @ 2020-08-02 11:58:44 : 7226 steps taken, and 12270 accepted.
+[mcmc] Progress @ 2020-08-02 11:59:45 : 7351 steps taken, and 12319 accepted.
+[mcmc] Learn + convergence test @ 12320 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.038284 after 12320 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 12:00:45 : 7474 steps taken, and 12358 accepted.
+[mcmc] Progress @ 2020-08-02 12:01:45 : 7603 steps taken, and 12410 accepted.
+[mcmc] Progress @ 2020-08-02 12:02:46 : 7731 steps taken, and 12455 accepted.
+[mcmc] Progress @ 2020-08-02 12:03:47 : 7844 steps taken, and 12494 accepted.
+[mcmc] Progress @ 2020-08-02 12:04:47 : 7960 steps taken, and 12532 accepted.
+[mcmc] Progress @ 2020-08-02 12:05:48 : 8071 steps taken, and 12575 accepted.
+[mcmc] Learn + convergence test @ 12600 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.033308 after 12600 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 12:06:49 : 8190 steps taken, and 12618 accepted.
+[mcmc] Progress @ 2020-08-02 12:07:49 : 8304 steps taken, and 12658 accepted.
+[mcmc] Progress @ 2020-08-02 12:08:50 : 8424 steps taken, and 12700 accepted.
+[mcmc] Progress @ 2020-08-02 12:09:50 : 8531 steps taken, and 12733 accepted.
+[mcmc] Progress @ 2020-08-02 12:10:50 : 8650 steps taken, and 12777 accepted.
+[mcmc] Progress @ 2020-08-02 12:11:51 : 8767 steps taken, and 12824 accepted.
+[mcmc] Progress @ 2020-08-02 12:12:51 : 8881 steps taken, and 12867 accepted.
+[mcmc] Learn + convergence test @ 12880 samples accepted.
+[mcmc]  - Acceptance rate: 0.704
+[mcmc]  - Convergence of means: R-1 = 0.039103 after 12880 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2020-08-02 12:13:52 : 8993 steps taken, and 12906 accepted.
+[mcmc] Progress @ 2020-08-02 12:14:53 : 9108 steps taken, and 12946 accepted.
+[mcmc] Progress @ 2020-08-02 12:15:53 : 9223 steps taken, and 12990 accepted.
+slurmstepd: error: Detected 1 oom-kill event(s) in step 23900.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: d0040: task 0: Out Of Memory
+slurmstepd: error: Detected 1 oom-kill event(s) in step 23900.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
