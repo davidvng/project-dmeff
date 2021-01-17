@@ -33,8 +33,8 @@ dmbparams = {
     'omega_b': 0.022032,
     'omega_cdm': 1.0e-20,
     'omega_dmb': 0.12038,
-    'm_dmb': 1.0,
-    'n_dmb': 0,
+    'm_dmb': 1.0e-6,
+    'n_dmb': 4,
     'Omega_k': 0.,
     'A_s': 2.215e-9,
     'n_s': 0.96,
@@ -44,12 +44,13 @@ dmbparams = {
 
 var_name = 'log10sigma_dmb'   # set varying parameter
 var_min = -29   # set min
-var_max = var_min + 7   # set max
-var_num = 8   # set total amount of cases
+offset = 6
+var_max = var_min + offset   # set max
+var_num = offset + 1   # set total amount of cases
 
 kvec = np.logspace(-4,np.log10(3),1000)
 legarray = []
-colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'orange', 'pink', 'purple', 'gray', 'brown', 'lime', 'navy', 'maroon', 'aqua', 'b', 'g', 'r', 'c', 'm', 'y', 'k']
+colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'purple', 'gray', 'maroon', 'navy', 'aqua']
 
 fig_TT, ax_TT = plt.subplots()
 
@@ -59,7 +60,7 @@ for i in range(var_num):
     print('*Compute with %s=%e'%(var_name,var))
     
     legarray.append(np.power(10, var))
-    var_color = colors[i]
+    var_color = colors[i%11]
 
     M = Class()
     M.set(dmbparams)
@@ -82,4 +83,4 @@ ax_TT.set_xlabel(r'$\ell$')
 ax_TT.set_ylabel(r'$100 x (C_\ell^\mathrm{LCDM}-C_\ell^\mathrm{dmb})/C_\ell^\mathrm{LCDM}$')
 ax_TT.legend(legarray)
 fig_TT.tight_layout()
-fig_TT.savefig('dme_n0_1GeV_cl_diffs_test.pdf')   # name output plot
+fig_TT.savefig('dme_n4_1keV_cl_diffs_test.pdf')   # name output plot
