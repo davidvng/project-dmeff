@@ -1,0 +1,299 @@
+theory:
+  classy:
+    path: /home1/davidvng/repos/class_dme
+    speed: 0.2
+    stop_at_error: false
+    extra_args:
+      N_ncdm: 1
+      N_ur: 2.0328
+      dmb_target: electron
+    use_renames: false
+    renames:
+      As: A_s
+      ns: n_s
+      nrun: alpha_s
+      nrunrun: beta_s
+      nt: n_t
+      ntrun: alpha_t
+      rdrag: rs_drag
+      omegak: Omega_k
+      omegal: Omega_Lambda
+      w: w0_fld
+      wa: wa_fld
+      omegabh2: omega_b
+      omegab: Omega_b
+      omegach2: omega_cdm
+      omegac: Omega_cdm
+      omegam: Omega_m
+      omegan: Omega_nu
+      tau: tau_reio
+      zrei: z_reio
+      deltazrei: reionization_width
+      helium_redshift: helium_fullreio_redshift
+      helium_delta_redshift: helium_fullreio_width
+      yhe: YHe
+      yheused: YHe
+    version: v2.9.4
+    input_params:
+    - A_s
+    - n_s
+    - 100*theta_s
+    - omega_b
+    - omega_cdm
+    - omega_dmb
+    - m_dmb
+    - n_dmb
+    - Vrel_dmb
+    - log10sigma_dmb
+    - m_ncdm
+    - tau_reio
+    output_params:
+    - H0
+    - Omega_m
+    - Omega_Lambda
+    - YHe
+    - z_reio
+    - sigma8
+    - age
+    - rs_drag
+likelihood:
+  planck_2018_highl_plik.TTTEEE_lite:
+    path: null
+    clik_file: baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik
+    product_id: '151902'
+    aliases:
+    - plikHM_TTTEEE
+    speed: 500
+    type: CMB
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_lensing.clik:
+    path: null
+    clik_file: baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing
+    product_id: '151902'
+    aliases:
+    - lensing
+    speed: 600
+    type: CMB
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+params:
+  logA:
+    prior:
+      min: 1.61
+      max: 3.91
+    ref:
+      dist: norm
+      loc: 3.05
+      scale: 0.001
+    proposal: 0.001
+    latex: \log(10^{10} A_\mathrm{s})
+    drop: true
+  A_s:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    latex: A_\mathrm{s}
+    derived: 'lambda A_s: A_s'
+    renames:
+    - As
+  n_s:
+    prior:
+      min: 0.8
+      max: 1.2
+    ref:
+      dist: norm
+      loc: 0.965
+      scale: 0.004
+    proposal: 0.002
+    latex: n_\mathrm{s}
+    renames:
+    - ns
+  theta_s_1e2:
+    prior:
+      min: 0.5
+      max: 10
+    ref:
+      dist: norm
+      loc: 1.0416
+      scale: 0.0004
+    proposal: 0.0002
+    latex: 100\theta_\mathrm{s}
+    drop: true
+  100*theta_s:
+    value: 'lambda theta_s_1e2: theta_s_1e2'
+    derived: false
+  H0:
+    latex: H_0
+    derived: true
+  omega_b:
+    prior:
+      min: 0.005
+      max: 0.1
+    ref:
+      dist: norm
+      loc: 0.0224
+      scale: 0.0001
+    proposal: 0.0001
+    latex: \Omega_\mathrm{b} h^2
+    renames:
+    - omegabh2
+  omega_cdm:
+    value: 1.0e-20
+    renames:
+    - omegach2
+  omega_dmb:
+    prior:
+      min: 0.001
+      max: 0.99
+    ref:
+      dist: norm
+      loc: 0.12
+      scale: 0.001
+    proposal: 0.0005
+    latex: \Omega_\mathrm{dmb} h^2
+  m_dmb:
+    value: 0.001
+    latex: m_\mathrm{dmb}
+  n_dmb:
+    value: 4
+    latex: n_\mathrm{dmb}
+  Vrel_dmb:
+    value: 0
+  log10sigma_dmb:
+    prior:
+      dist: uniform
+      min: -30
+      max: -16
+    latex: \log10(sigma_\mathrm{dmb})
+  sigma_dmb:
+    derived: 'lambda log10sigma_dmb: 10**log10sigma_dmb'
+    latex: \sigma_\mathrm{dmb}
+  Omega_m:
+    latex: \Omega_\mathrm{m}
+    derived: true
+    renames:
+    - omegam
+  omegamh2:
+    derived: 'lambda Omega_m, H0: Omega_m*(H0/100)**2'
+    latex: \Omega_\mathrm{m} h^2
+  m_ncdm:
+    value: 0.06
+    renames: mnu
+  Omega_Lambda:
+    latex: \Omega_\Lambda
+    derived: true
+    renames:
+    - omegal
+  YHe:
+    latex: Y_\mathrm{P}
+    derived: true
+    renames:
+    - yheused
+    - yhe
+  tau_reio:
+    prior:
+      min: 0.01
+      max: 0.8
+    ref:
+      dist: norm
+      loc: 0.055
+      scale: 0.006
+    proposal: 0.003
+    latex: \tau_\mathrm{reio}
+    renames:
+    - tau
+  z_reio:
+    latex: z_\mathrm{re}
+    derived: true
+    renames:
+    - zrei
+  sigma8:
+    latex: \sigma_8
+    derived: true
+  s8h5:
+    derived: 'lambda sigma8, H0: sigma8*(H0*1e-2)**(-0.5)'
+    latex: \sigma_8/h^{0.5}
+  s8omegamp5:
+    derived: 'lambda sigma8, Omega_m: sigma8*Omega_m**0.5'
+    latex: \sigma_8 \Omega_\mathrm{m}^{0.5}
+  s8omegamp25:
+    derived: 'lambda sigma8, Omega_m: sigma8*Omega_m**0.25'
+    latex: \sigma_8 \Omega_\mathrm{m}^{0.25}
+  A:
+    derived: 'lambda A_s: 1e9*A_s'
+    latex: 10^9 A_\mathrm{s}
+  clamp:
+    derived: 'lambda A_s, tau_reio: 1e9*A_s*np.exp(-2*tau_reio)'
+    latex: 10^9 A_\mathrm{s} e^{-2\tau}
+  age:
+    latex: '{\rm{Age}}/\mathrm{Gyr}'
+    derived: true
+  rs_drag:
+    latex: r_\mathrm{drag}
+    derived: true
+    renames:
+    - rdrag
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1
+      scale: 0.0025
+    ref:
+      dist: norm
+      loc: 1
+      scale: 0.002
+    proposal: 0.0005
+    latex: y_\mathrm{cal}
+    renames: calPlanck
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+    derived: true
+sampler:
+  mcmc:
+    burn_in: 0
+    max_tries: 40d
+    covmat: /home1/davidvng/repos/data/planck_supp_data_and_covmats/covmats/base_plikHM_TTTEEE_lowl_lensing.covmat
+    covmat_params: null
+    proposal_scale: 1.9
+    output_every: 60s
+    learn_every: 20d
+    learn_proposal: true
+    learn_proposal_Rminus1_max: 30.0
+    learn_proposal_Rminus1_max_early: 50.0
+    learn_proposal_Rminus1_min: 0.0
+    max_samples: .inf
+    Rminus1_stop: 0.01
+    Rminus1_cl_stop: 0.2
+    Rminus1_cl_level: 0.95
+    Rminus1_single_split: 4
+    measure_speeds: true
+    oversample_power: 0.4
+    oversample_thin: true
+    drag: true
+    blocking:
+    - - 1
+      - - logA
+        - n_s
+        - theta_s_1e2
+        - omega_b
+        - omega_dmb
+        - log10sigma_dmb
+        - tau_reio
+    - - 9
+      - - A_planck
+    callback_function: null
+    callback_every: null
+    seed: null
+    check_every: null
+    oversample: null
+    drag_limits: null
+    version: '3.0'
+output: dme_n4_1MeV_vr0
+packages_path: null
+test: false
+version: '3.0'
