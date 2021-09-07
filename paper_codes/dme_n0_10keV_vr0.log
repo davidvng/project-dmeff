@@ -1,0 +1,15 @@
+[0 : output_mpi] Output to be read-from/written-into folder 'chains', with prefix 'dme_n0_10keV_vr0'
+[0 : output_mpi] Found existing info files with the requested output prefix: 'chains/dme_n0_10keV_vr0'
+[0 : output_mpi] *ERROR* Delete the previous output manually, automatically ('-f', '--force', 'force: True') or request resuming ('-r', '--resume', 'resume: True')
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 608885.0 ON e14-01 CANCELLED AT 2021-06-10T11:56:36 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: e14-02: task 1: Killed
+srun: error: e14-01: task 0: Exited with exit code 1

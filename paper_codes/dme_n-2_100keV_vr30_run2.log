@@ -1,0 +1,2287 @@
+[0 : output_mpi] Output to be read-from/written-into folder 'chains', with prefix 'dme_n-2_100keV_vr30_run2'
+[0 : classy] Importing *local* classy from /home1/davidvng/repos/class_dme
+[1 : classy] Importing *local* classy from /home1/davidvng/repos/class_dme
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ Initializing Planck likelihood, version Plik_v22_cmbonly_like                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+[1 : classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[0 : classy] *WARNING* Requesting BB for ell>50 or lensing Cl's: using a non-linear code is recommended (and you are not using any). To activate it, set 'non_linear: halofit|hmcode|...' in classy's 'extra_args'.
+[1 : mcmc] Getting initial point... (this may take a few seconds)
+[1 : prior] Reference values or pdf's for some parameters were not provided. Sampling from the prior instead for those parameters.
+[0 : mcmc] Getting initial point... (this may take a few seconds)
+[0 : prior] Reference values or pdf's for some parameters were not provided. Sampling from the prior instead for those parameters.
+[0 : model] Measuring speeds... (this may take a few seconds)
+[0 : model] Setting measured speeds (per sec): {planck_2018_highl_plik.TTTEEE_lite: 447.0, planck_2018_lensing.clik: 998.0, classy: 0.881}
+[1 : mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[0 : mcmc] *WARNING* Dragging disabled: speed ratio and fast-to-slow ratio not large enough.
+[0 : mcmc] Oversampling with factors:
+[0 : mcmc] * 1 : ['logA', 'n_s', 'theta_s_1e2', 'omega_b', 'omega_dmb', 'log10sigma_dmb', 'tau_reio']
+[0 : mcmc] * 9 : ['A_planck']
+[0 : mcmc] Covariance matrix loaded for params ['omega_b', 'tau_reio', 'logA', 'n_s', 'A_planck']
+[0 : mcmc] Missing proposal covariance for params ['theta_s_1e2', 'omega_dmb', 'log10sigma_dmb']
+[0 : prior] *WARNING* Reference pdf not defined or improper for some parameters. Using prior's sigma instead for them.
+[0 : mcmc] Covariance matrix not complete. We will start learning the covariance of the proposal earlier: R-1 = 50 (would be 30 if all params loaded).
+[0 : mcmc] Initial point: logA:3.04893, n_s:0.9609134, theta_s_1e2:1.04202, omega_b:0.02230263, omega_dmb:0.1202191, log10sigma_dmb:-33.32137, tau_reio:0.05388448, A_planck:0.9982152
+[1 : mcmc] Initial point: logA:3.050137, n_s:0.9623673, theta_s_1e2:1.041725, omega_b:0.02244349, omega_dmb:0.1228027, log10sigma_dmb:-36.45452, tau_reio:0.05126007, A_planck:1.001174
+[0 : mcmc] Sampling!
+[1 : mcmc] Sampling!
+[1 : mcmc] Progress @ 2021-06-11 12:55:38 : 1 steps taken, and 0 accepted.
+[0 : mcmc] Progress @ 2021-06-11 12:55:38 : 1 steps taken, and 0 accepted.
+[0 : mcmc] Progress @ 2021-06-11 12:56:38 : 133 steps taken, and 33 accepted.
+[1 : mcmc] Progress @ 2021-06-11 12:56:39 : 171 steps taken, and 54 accepted.
+[0 : mcmc] Progress @ 2021-06-11 12:57:39 : 271 steps taken, and 74 accepted.
+[1 : mcmc] Progress @ 2021-06-11 12:57:39 : 327 steps taken, and 100 accepted.
+[0 : mcmc] Progress @ 2021-06-11 12:58:39 : 402 steps taken, and 112 accepted.
+[1 : mcmc] Progress @ 2021-06-11 12:58:40 : 466 steps taken, and 136 accepted.
+[1 : mcmc] Learn + convergence test @ 160 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 12:59:39 : 536 steps taken, and 152 accepted.
+[1 : mcmc] Progress @ 2021-06-11 12:59:40 : 599 steps taken, and 172 accepted.
+[0 : mcmc] Learn + convergence test @ 160 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.572 = avg([0.5633802816901409, 0.5787781350482315])
+[0 : mcmc]  - Convergence of means: R-1 = 14.645924 after 340 accepted steps = sum([160, 180])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:00:39 : 693 steps taken, and 206 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:00:41 : 746 steps taken, and 222 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:01:40 : 836 steps taken, and 259 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:01:41 : 896 steps taken, and 283 accepted.
+[1 : mcmc] Learn + convergence test @ 320 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:02:40 : 968 steps taken, and 301 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:02:42 : 1040 steps taken, and 337 accepted.
+[0 : mcmc] Learn + convergence test @ 320 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.646 = avg([0.631163708086785, 0.6593001841620626])
+[0 : mcmc]  - Convergence of means: R-1 = 4.086870 after 678 accepted steps = sum([320, 358])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:03:41 : 1112 steps taken, and 354 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:03:42 : 1182 steps taken, and 388 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:04:41 : 1281 steps taken, and 409 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:04:43 : 1323 steps taken, and 439 accepted.
+[1 : mcmc] Learn + convergence test @ 480 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:05:42 : 1424 steps taken, and 462 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:05:44 : 1459 steps taken, and 484 accepted.
+[0 : mcmc] Learn + convergence test @ 480 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.661 = avg([0.6521739130434783, 0.6701986754966888])
+[0 : mcmc]  - Convergence of means: R-1 = 3.307041 after 986 accepted steps = sum([480, 506])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:06:43 : 1541 steps taken, and 501 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:06:44 : 1605 steps taken, and 537 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:07:43 : 1669 steps taken, and 548 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:07:45 : 1780 steps taken, and 596 accepted.
+[1 : mcmc] Learn + convergence test @ 640 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:08:43 : 1800 steps taken, and 599 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:08:45 : 1906 steps taken, and 646 accepted.
+[0 : mcmc] Learn + convergence test @ 640 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.673 = avg([0.6604747162022704, 0.6851664984863775])
+[0 : mcmc]  - Convergence of means: R-1 = 2.287188 after 1319 accepted steps = sum([640, 679])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:09:44 : 2009 steps taken, and 662 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:09:46 : 2035 steps taken, and 698 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:10:44 : 2152 steps taken, and 710 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:10:47 : 2168 steps taken, and 752 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:11:45 : 2311 steps taken, and 767 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:11:47 : 2301 steps taken, and 799 accepted.
+[1 : mcmc] Learn + convergence test @ 800 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 800 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.682 = avg([0.6661115736885929, 0.6968174204355109])
+[0 : mcmc]  - Convergence of means: R-1 = 0.957932 after 1632 accepted steps = sum([800, 832])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:12:46 : 2444 steps taken, and 814 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:12:48 : 2437 steps taken, and 848 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:13:47 : 2578 steps taken, and 857 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:13:49 : 2604 steps taken, and 897 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:14:48 : 2713 steps taken, and 905 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:14:49 : 2770 steps taken, and 946 accepted.
+[1 : mcmc] Learn + convergence test @ 960 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:15:48 : 2833 steps taken, and 947 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:15:50 : 2903 steps taken, and 991 accepted.
+[0 : mcmc] Learn + convergence test @ 960 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.677 = avg([0.6689895470383276, 0.6852481305234535])
+[0 : mcmc]  - Convergence of means: R-1 = 0.173836 after 1968 accepted steps = sum([960, 1008])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:16:48 : 2982 steps taken, and 992 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:16:50 : 3030 steps taken, and 1034 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:17:49 : 3115 steps taken, and 1039 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:17:51 : 3151 steps taken, and 1071 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:18:49 : 3243 steps taken, and 1082 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:18:52 : 3283 steps taken, and 1119 accepted.
+[1 : mcmc] Learn + convergence test @ 1120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 1120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.674 = avg([0.6694560669456067, 0.6776277157956547])
+[0 : mcmc]  - Convergence of means: R-1 = 0.215806 after 2274 accepted steps = sum([1120, 1154])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:19:49 : 3360 steps taken, and 1125 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:19:52 : 3429 steps taken, and 1162 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:20:49 : 3496 steps taken, and 1168 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:20:53 : 3605 steps taken, and 1224 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:21:49 : 3631 steps taken, and 1218 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:21:53 : 3736 steps taken, and 1270 accepted.
+[1 : mcmc] Learn + convergence test @ 1280 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:22:49 : 3767 steps taken, and 1270 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:22:54 : 3874 steps taken, and 1320 accepted.
+[0 : mcmc] Learn + convergence test @ 1280 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.679 = avg([0.6747496046389035, 0.6822622107969152])
+[0 : mcmc]  - Convergence of means: R-1 = 0.208607 after 2607 accepted steps = sum([1280, 1327])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:23:49 : 3891 steps taken, and 1318 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:23:55 : 4008 steps taken, and 1368 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:24:50 : 4010 steps taken, and 1361 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:24:55 : 4141 steps taken, and 1408 accepted.
+[1 : mcmc] Learn + convergence test @ 1440 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:25:50 : 4143 steps taken, and 1403 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:25:56 : 4272 steps taken, and 1459 accepted.
+[0 : mcmc] Learn + convergence test @ 1440 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.681 = avg([0.6789250353606789, 0.6836595357305416])
+[0 : mcmc]  - Convergence of means: R-1 = 0.361649 after 2942 accepted steps = sum([1440, 1502])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:26:50 : 4255 steps taken, and 1444 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:26:57 : 4433 steps taken, and 1515 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:27:51 : 4381 steps taken, and 1489 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:27:57 : 4568 steps taken, and 1563 accepted.
+[1 : mcmc] Learn + convergence test @ 1600 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:28:51 : 4512 steps taken, and 1535 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:28:58 : 4741 steps taken, and 1618 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:29:52 : 4641 steps taken, and 1578 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:29:59 : 4864 steps taken, and 1659 accepted.
+[0 : mcmc] Learn + convergence test @ 1600 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.680 = avg([0.6785411365564037, 0.6814303128809427])
+[0 : mcmc]  - Convergence of means: R-1 = 0.372404 after 3277 accepted steps = sum([1600, 1677])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:30:53 : 4768 steps taken, and 1619 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:30:59 : 4999 steps taken, and 1700 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:31:53 : 4898 steps taken, and 1660 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:32:00 : 5125 steps taken, and 1745 accepted.
+[1 : mcmc] Learn + convergence test @ 1760 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:32:53 : 5057 steps taken, and 1712 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:33:01 : 5255 steps taken, and 1794 accepted.
+[0 : mcmc] Learn + convergence test @ 1760 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.681 = avg([0.6777050442818637, 0.6848598130841121])
+[0 : mcmc]  - Convergence of means: R-1 = 0.260452 after 3592 accepted steps = sum([1760, 1832])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:33:54 : 5199 steps taken, and 1761 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:34:02 : 5386 steps taken, and 1838 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:34:54 : 5316 steps taken, and 1798 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:35:02 : 5511 steps taken, and 1877 accepted.
+[1 : mcmc] Learn + convergence test @ 1920 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:35:54 : 5437 steps taken, and 1839 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:36:03 : 5666 steps taken, and 1934 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:36:54 : 5559 steps taken, and 1875 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:37:03 : 5794 steps taken, and 1975 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:37:55 : 5677 steps taken, and 1915 accepted.
+[0 : mcmc] Learn + convergence test @ 1920 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2021-06-11 13:38:04 : 5944 steps taken, and 2026 accepted.
+[0 : mcmc]  - Acceptance rate: 0.678 = avg([0.67463106113844, 0.6821548821548822])
+[0 : mcmc]  - Convergence of means: R-1 = 0.129520 after 3946 accepted steps = sum([1920, 2026])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:38:56 : 5793 steps taken, and 1951 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:39:04 : 6073 steps taken, and 2073 accepted.
+[1 : mcmc] Learn + convergence test @ 2080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:39:57 : 5930 steps taken, and 1998 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:40:05 : 6210 steps taken, and 2124 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:40:57 : 6051 steps taken, and 2032 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:41:06 : 6335 steps taken, and 2167 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:41:57 : 6181 steps taken, and 2079 accepted.
+[0 : mcmc] Learn + convergence test @ 2080 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.678 = avg([0.6729213846651569, 0.6835561081753186])
+[0 : mcmc]  - Convergence of means: R-1 = 0.127845 after 4279 accepted steps = sum([2080, 2199])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 13:42:06 : 6456 steps taken, and 2205 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:42:57 : 6303 steps taken, and 2120 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:43:07 : 6575 steps taken, and 2238 accepted.
+[1 : mcmc] Learn + convergence test @ 2240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:43:58 : 6442 steps taken, and 2162 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:44:08 : 6723 steps taken, and 2288 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:44:58 : 6558 steps taken, and 2201 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:45:08 : 6852 steps taken, and 2327 accepted.
+[0 : mcmc] Learn + convergence test @ 2240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.675 = avg([0.6708595387840671, 0.6785095320623917])
+[0 : mcmc]  - Convergence of means: R-1 = 0.101263 after 4589 accepted steps = sum([2240, 2349])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:45:59 : 6697 steps taken, and 2245 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:46:09 : 6965 steps taken, and 2360 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:46:59 : 6837 steps taken, and 2290 accepted.
+[1 : mcmc] Learn + convergence test @ 2400 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 13:47:10 : 7088 steps taken, and 2401 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:47:59 : 6961 steps taken, and 2335 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:48:10 : 7218 steps taken, and 2450 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:48:59 : 7094 steps taken, and 2375 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:49:11 : 7341 steps taken, and 2494 accepted.
+[0 : mcmc] Learn + convergence test @ 2400 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.674 = avg([0.6687099470604625, 0.6785036595283275])
+[0 : mcmc]  - Convergence of means: R-1 = 0.070751 after 4903 accepted steps = sum([2400, 2503])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:50:00 : 7240 steps taken, and 2424 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:50:12 : 7488 steps taken, and 2536 accepted.
+[1 : mcmc] Learn + convergence test @ 2560 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:51:01 : 7361 steps taken, and 2465 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:51:12 : 7623 steps taken, and 2581 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:52:01 : 7488 steps taken, and 2507 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:52:13 : 7769 steps taken, and 2626 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:53:01 : 7619 steps taken, and 2551 accepted.
+[0 : mcmc] Learn + convergence test @ 2560 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.674 = avg([0.6703325477873789, 0.6769855366658208])
+[0 : mcmc]  - Convergence of means: R-1 = 0.125281 after 5228 accepted steps = sum([2560, 2668])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 13:53:13 : 7886 steps taken, and 2668 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:54:01 : 7749 steps taken, and 2597 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:54:14 : 8011 steps taken, and 2707 accepted.
+[1 : mcmc] Learn + convergence test @ 2720 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 13:55:01 : 7882 steps taken, and 2637 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:55:15 : 8169 steps taken, and 2752 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:56:01 : 8003 steps taken, and 2678 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:56:16 : 8290 steps taken, and 2791 accepted.
+[0 : mcmc] Learn + convergence test @ 2720 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.671 = avg([0.6691266912669127, 0.672939494997618])
+[0 : mcmc]  - Convergence of means: R-1 = 0.085078 after 5545 accepted steps = sum([2720, 2825])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 13:57:06 : 8132 steps taken, and 2720 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:57:16 : 8432 steps taken, and 2835 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:58:06 : 8256 steps taken, and 2762 accepted.
+[1 : mcmc] Learn + convergence test @ 2880 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 13:58:17 : 8592 steps taken, and 2884 accepted.
+[0 : mcmc] Progress @ 2021-06-11 13:59:06 : 8376 steps taken, and 2806 accepted.
+[1 : mcmc] Progress @ 2021-06-11 13:59:18 : 8746 steps taken, and 2933 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:00:07 : 8532 steps taken, and 2861 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:00:19 : 8867 steps taken, and 2979 accepted.
+[0 : mcmc] Learn + convergence test @ 2880 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.672 = avg([0.6713286713286714, 0.6717660292463442])
+[0 : mcmc]  - Convergence of means: R-1 = 0.058329 after 5866 accepted steps = sum([2880, 2986])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:01:08 : 8652 steps taken, and 2902 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:01:20 : 8992 steps taken, and 3016 accepted.
+[1 : mcmc] Learn + convergence test @ 3040 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:02:08 : 8792 steps taken, and 2947 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:02:20 : 9121 steps taken, and 3062 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:03:08 : 8930 steps taken, and 2994 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:03:21 : 9276 steps taken, and 3114 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:04:08 : 9058 steps taken, and 3036 accepted.
+[0 : mcmc] Learn + convergence test @ 3040 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.671 = avg([0.6703417861080485, 0.6708457288567786])
+[0 : mcmc]  - Convergence of means: R-1 = 0.060704 after 6197 accepted steps = sum([3040, 3157])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 14:04:22 : 9426 steps taken, and 3161 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:05:10 : 9188 steps taken, and 3073 accepted.
+[1 : mcmc] Learn + convergence test @ 3200 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 14:05:23 : 9549 steps taken, and 3200 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:06:10 : 9356 steps taken, and 3129 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:06:23 : 9680 steps taken, and 3248 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:07:10 : 9487 steps taken, and 3169 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:07:23 : 9804 steps taken, and 3289 accepted.
+[0 : mcmc] Learn + convergence test @ 3200 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.6684771255483601, 0.671130046662609])
+[0 : mcmc]  - Convergence of means: R-1 = 0.056572 after 6508 accepted steps = sum([3200, 3308])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:08:11 : 9603 steps taken, and 3212 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:08:24 : 9937 steps taken, and 3334 accepted.
+[1 : mcmc] Learn + convergence test @ 3360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:09:11 : 9731 steps taken, and 3256 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:09:24 : 10118 steps taken, and 3398 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:10:11 : 9854 steps taken, and 3302 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:10:25 : 10240 steps taken, and 3438 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:11:11 : 9983 steps taken, and 3353 accepted.
+[0 : mcmc] Learn + convergence test @ 3360 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.672 = avg([0.6721344268853771, 0.6716244929495847])
+[0 : mcmc]  - Convergence of means: R-1 = 0.066086 after 6837 accepted steps = sum([3360, 3477])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 14:11:26 : 10373 steps taken, and 3479 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:12:12 : 10138 steps taken, and 3404 accepted.
+[1 : mcmc] Learn + convergence test @ 3520 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 14:12:26 : 10509 steps taken, and 3527 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:13:13 : 10265 steps taken, and 3453 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:13:27 : 10656 steps taken, and 3581 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:14:13 : 10396 steps taken, and 3498 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:14:27 : 10789 steps taken, and 3626 accepted.
+[0 : mcmc] Learn + convergence test @ 3520 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.673 = avg([0.6736842105263158, 0.6729524865964134])
+[0 : mcmc]  - Convergence of means: R-1 = 0.044565 after 7160 accepted steps = sum([3520, 3640])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:15:13 : 10523 steps taken, and 3543 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:15:28 : 10923 steps taken, and 3678 accepted.
+[1 : mcmc] Learn + convergence test @ 3680 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:16:13 : 10650 steps taken, and 3582 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:16:28 : 11109 steps taken, and 3727 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:17:13 : 10780 steps taken, and 3626 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:17:29 : 11273 steps taken, and 3777 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:18:14 : 10896 steps taken, and 3663 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:18:29 : 11406 steps taken, and 3818 accepted.
+[0 : mcmc] Learn + convergence test @ 3680 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.671 = avg([0.6716554115714547, 0.6696444210895078])
+[0 : mcmc]  - Convergence of means: R-1 = 0.051072 after 7503 accepted steps = sum([3680, 3823])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Learn + convergence test @ 3840 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:19:14 : 11052 steps taken, and 3707 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:19:29 : 11541 steps taken, and 3852 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:20:15 : 11192 steps taken, and 3751 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:20:30 : 11677 steps taken, and 3892 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:21:16 : 11348 steps taken, and 3806 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:21:30 : 11815 steps taken, and 3938 accepted.
+[0 : mcmc] Learn + convergence test @ 3840 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.669 = avg([0.6712113266911379, 0.6663859885483328])
+[0 : mcmc]  - Convergence of means: R-1 = 0.031588 after 7797 accepted steps = sum([3840, 3957])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:22:17 : 11483 steps taken, and 3854 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:22:30 : 11945 steps taken, and 3986 accepted.
+[1 : mcmc] Learn + convergence test @ 4000 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:23:18 : 11636 steps taken, and 3904 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:23:30 : 12082 steps taken, and 4031 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:24:18 : 11785 steps taken, and 3956 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:24:30 : 12221 steps taken, and 4073 accepted.
+[0 : mcmc] Learn + convergence test @ 4000 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.669 = avg([0.6718172657037286, 0.6658010063301412])
+[0 : mcmc]  - Convergence of means: R-1 = 0.052756 after 8102 accepted steps = sum([4000, 4102])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:25:21 : 11910 steps taken, and 4000 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:25:30 : 12352 steps taken, and 4110 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:26:22 : 12038 steps taken, and 4045 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:26:31 : 12483 steps taken, and 4160 accepted.
+[1 : mcmc] Learn + convergence test @ 4160 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:27:23 : 12183 steps taken, and 4093 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:27:32 : 12614 steps taken, and 4202 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:28:24 : 12343 steps taken, and 4143 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:28:32 : 12742 steps taken, and 4241 accepted.
+[0 : mcmc] Learn + convergence test @ 4160 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.669 = avg([0.67172614241886, 0.6661967418546366])
+[0 : mcmc]  - Convergence of means: R-1 = 0.066887 after 8413 accepted steps = sum([4160, 4253])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:29:24 : 12468 steps taken, and 4187 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:29:32 : 12875 steps taken, and 4289 accepted.
+[1 : mcmc] Learn + convergence test @ 4320 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:30:25 : 12591 steps taken, and 4229 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:30:32 : 12998 steps taken, and 4334 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:31:25 : 12726 steps taken, and 4271 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:31:32 : 13131 steps taken, and 4375 accepted.
+[0 : mcmc] Learn + convergence test @ 4320 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.6721643068305586, 0.6671702674119958])
+[0 : mcmc]  - Convergence of means: R-1 = 0.065844 after 8736 accepted steps = sum([4320, 4416])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:32:27 : 12857 steps taken, and 4320 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:32:32 : 13255 steps taken, and 4420 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:33:27 : 13024 steps taken, and 4371 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:33:33 : 13400 steps taken, and 4471 accepted.
+[1 : mcmc] Learn + convergence test @ 4480 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:34:27 : 13165 steps taken, and 4415 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:34:33 : 13525 steps taken, and 4514 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:35:28 : 13286 steps taken, and 4458 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:35:33 : 13663 steps taken, and 4558 accepted.
+[0 : mcmc] Learn + convergence test @ 4480 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.671865626874625, 0.6680782710280374])
+[0 : mcmc]  - Convergence of means: R-1 = 0.049096 after 9055 accepted steps = sum([4480, 4575])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:36:28 : 13412 steps taken, and 4500 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:36:34 : 13816 steps taken, and 4613 accepted.
+[1 : mcmc] Learn + convergence test @ 4640 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:37:29 : 13538 steps taken, and 4543 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:37:35 : 13987 steps taken, and 4675 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:38:29 : 13659 steps taken, and 4585 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:38:35 : 14112 steps taken, and 4722 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:39:30 : 13816 steps taken, and 4635 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:39:35 : 14277 steps taken, and 4771 accepted.
+[0 : mcmc] Learn + convergence test @ 4640 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.6710050614605929, 0.6687211093990755])
+[0 : mcmc]  - Convergence of means: R-1 = 0.049759 after 9414 accepted steps = sum([4640, 4774])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Learn + convergence test @ 4800 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:40:31 : 13969 steps taken, and 4679 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:40:35 : 14400 steps taken, and 4816 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:41:32 : 14121 steps taken, and 4728 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:41:35 : 14544 steps taken, and 4859 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:42:32 : 14262 steps taken, and 4777 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:42:35 : 14679 steps taken, and 4903 accepted.
+[0 : mcmc] Learn + convergence test @ 4800 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.669 = avg([0.6693627109189793, 0.6682946682946683])
+[0 : mcmc]  - Convergence of means: R-1 = 0.060266 after 9726 accepted steps = sum([4800, 4926])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:43:33 : 14407 steps taken, and 4816 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:43:35 : 14810 steps taken, and 4948 accepted.
+[1 : mcmc] Learn + convergence test @ 4960 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:44:33 : 14527 steps taken, and 4857 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:44:36 : 14959 steps taken, and 4995 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:45:33 : 14658 steps taken, and 4903 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:45:38 : 15090 steps taken, and 5036 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:46:34 : 14779 steps taken, and 4949 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:46:39 : 15224 steps taken, and 5083 accepted.
+[0 : mcmc] Learn + convergence test @ 4960 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.669 = avg([0.6699986491962718, 0.667584940312213])
+[0 : mcmc]  - Convergence of means: R-1 = 0.072126 after 10049 accepted steps = sum([4960, 5089])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Learn + convergence test @ 5120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:47:35 : 14910 steps taken, and 5001 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:47:39 : 15350 steps taken, and 5126 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:48:36 : 15029 steps taken, and 5040 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:48:39 : 15513 steps taken, and 5179 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:49:36 : 15164 steps taken, and 5084 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:49:40 : 15641 steps taken, and 5222 accepted.
+[0 : mcmc] Learn + convergence test @ 5120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.6710353866317169, 0.6684043229497775])
+[0 : mcmc]  - Convergence of means: R-1 = 0.055732 after 10377 accepted steps = sum([5120, 5257])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 14:50:37 : 15301 steps taken, and 5137 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:50:40 : 15771 steps taken, and 5269 accepted.
+[1 : mcmc] Learn + convergence test @ 5280 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 14:51:38 : 15436 steps taken, and 5184 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:51:40 : 15912 steps taken, and 5319 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:52:39 : 15573 steps taken, and 5232 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:52:40 : 16047 steps taken, and 5359 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:53:39 : 15693 steps taken, and 5273 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:53:40 : 16211 steps taken, and 5414 accepted.
+[0 : mcmc] Learn + convergence test @ 5280 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.6721833227243794, 0.667940813810111])
+[0 : mcmc]  - Convergence of means: R-1 = 0.059912 after 10697 accepted steps = sum([5280, 5417])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Learn + convergence test @ 5440 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 14:54:40 : 16339 steps taken, and 5453 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:54:40 : 15847 steps taken, and 5329 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:55:40 : 16467 steps taken, and 5497 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:55:41 : 15981 steps taken, and 5376 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:56:41 : 16606 steps taken, and 5548 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:56:42 : 16107 steps taken, and 5410 accepted.
+[0 : mcmc] Learn + convergence test @ 5440 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.6718537730023465, 0.6687447548255605])
+[0 : mcmc]  - Convergence of means: R-1 = 0.047883 after 11018 accepted steps = sum([5440, 5578])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 14:57:42 : 16743 steps taken, and 5598 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:57:42 : 16248 steps taken, and 5458 accepted.
+[1 : mcmc] Learn + convergence test @ 5600 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 14:58:42 : 16915 steps taken, and 5649 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:58:43 : 16373 steps taken, and 5501 accepted.
+[1 : mcmc] Progress @ 2021-06-11 14:59:42 : 17072 steps taken, and 5700 accepted.
+[0 : mcmc] Progress @ 2021-06-11 14:59:44 : 16509 steps taken, and 5543 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:00:42 : 17226 steps taken, and 5752 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:00:44 : 16640 steps taken, and 5584 accepted.
+[1 : mcmc] Learn + convergence test @ 5760 samples accepted.
+[0 : mcmc] Learn + convergence test @ 5600 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.670 = avg([0.6714628297362111, 0.6682881630762103])
+[0 : mcmc]  - Convergence of means: R-1 = 0.056745 after 11370 accepted steps = sum([5600, 5770])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:01:42 : 17357 steps taken, and 5799 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:01:44 : 16768 steps taken, and 5634 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:02:42 : 17486 steps taken, and 5845 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:02:45 : 16895 steps taken, and 5672 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:03:43 : 17615 steps taken, and 5885 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:03:46 : 17027 steps taken, and 5705 accepted.
+[1 : mcmc] Learn + convergence test @ 5920 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 15:04:43 : 17751 steps taken, and 5930 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:04:47 : 17154 steps taken, and 5751 accepted.
+[0 : mcmc] Learn + convergence test @ 5760 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.669 = avg([0.6708595387840671, 0.6675666554168073])
+[0 : mcmc]  - Convergence of means: R-1 = 0.069813 after 11694 accepted steps = sum([5760, 5934])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:05:43 : 17884 steps taken, and 5966 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:05:47 : 17275 steps taken, and 5795 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:06:44 : 18024 steps taken, and 6007 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:06:48 : 17406 steps taken, and 5839 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:07:44 : 18150 steps taken, and 6046 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:07:48 : 17531 steps taken, and 5879 accepted.
+[0 : mcmc] Learn + convergence test @ 5920 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 6080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.669 = avg([0.6715047057489512, 0.6660823838737949])
+[0 : mcmc]  - Convergence of means: R-1 = 0.075091 after 12002 accepted steps = sum([5922, 6080])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:08:45 : 18289 steps taken, and 6090 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:08:49 : 17666 steps taken, and 5928 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:09:46 : 18433 steps taken, and 6138 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:09:49 : 17799 steps taken, and 5973 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:10:47 : 18583 steps taken, and 6186 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:10:50 : 17931 steps taken, and 6015 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:11:47 : 18718 steps taken, and 6226 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:11:51 : 18065 steps taken, and 6060 accepted.
+[1 : mcmc] Learn + convergence test @ 6240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 6080 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.668 = avg([0.6704157018414378, 0.6650697327797296])
+[0 : mcmc]  - Convergence of means: R-1 = 0.091800 after 12327 accepted steps = sum([6080, 6247])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:12:47 : 18855 steps taken, and 6265 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:12:51 : 18225 steps taken, and 6106 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:13:48 : 18986 steps taken, and 6307 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:13:52 : 18351 steps taken, and 6140 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:14:49 : 19120 steps taken, and 6347 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:14:53 : 18497 steps taken, and 6181 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:15:49 : 19263 steps taken, and 6392 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:15:54 : 18634 steps taken, and 6224 accepted.
+[1 : mcmc] Learn + convergence test @ 6400 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 6240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.666 = avg([0.6679511881824021, 0.6640826873385013])
+[0 : mcmc]  - Convergence of means: R-1 = 0.102484 after 12665 accepted steps = sum([6240, 6425])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:16:50 : 19414 steps taken, and 6448 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:16:54 : 18755 steps taken, and 6263 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:17:50 : 19549 steps taken, and 6489 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:17:55 : 18888 steps taken, and 6310 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:18:50 : 19692 steps taken, and 6534 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:18:56 : 19034 steps taken, and 6357 accepted.
+[1 : mcmc] Learn + convergence test @ 6560 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 6400 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.666 = avg([0.668197953643767, 0.6635758919572666])
+[0 : mcmc]  - Convergence of means: R-1 = 0.107979 after 12984 accepted steps = sum([6400, 6584])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:19:50 : 19855 steps taken, and 6586 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:19:57 : 19175 steps taken, and 6406 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:20:50 : 19999 steps taken, and 6642 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:20:58 : 19302 steps taken, and 6451 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:21:51 : 20135 steps taken, and 6686 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:21:59 : 19436 steps taken, and 6493 accepted.
+[1 : mcmc] Learn + convergence test @ 6720 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 15:22:52 : 20265 steps taken, and 6733 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:23:00 : 19573 steps taken, and 6541 accepted.
+[0 : mcmc] Learn + convergence test @ 6560 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6685690990623726, 0.6646341463414634])
+[0 : mcmc]  - Convergence of means: R-1 = 0.088255 after 13318 accepted steps = sum([6560, 6758])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:23:52 : 20417 steps taken, and 6789 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:24:01 : 19703 steps taken, and 6587 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:24:52 : 20579 steps taken, and 6850 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:25:02 : 19838 steps taken, and 6637 accepted.
+[1 : mcmc] Learn + convergence test @ 6880 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 15:25:53 : 20746 steps taken, and 6907 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:26:03 : 19990 steps taken, and 6693 accepted.
+[0 : mcmc] Learn + convergence test @ 6720 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.668 = avg([0.6700568351779839, 0.6651310106536136])
+[0 : mcmc]  - Convergence of means: R-1 = 0.088204 after 13650 accepted steps = sum([6720, 6930])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:26:53 : 20880 steps taken, and 6943 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:27:03 : 20126 steps taken, and 6740 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:27:53 : 21017 steps taken, and 6983 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:28:04 : 20256 steps taken, and 6786 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:28:53 : 21141 steps taken, and 7017 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:29:05 : 20386 steps taken, and 6831 accepted.
+[1 : mcmc] Learn + convergence test @ 7040 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 15:29:54 : 21282 steps taken, and 7061 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:30:06 : 20523 steps taken, and 6877 accepted.
+[0 : mcmc] Learn + convergence test @ 6880 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6703039750584567, 0.6636636636636637])
+[0 : mcmc]  - Convergence of means: R-1 = 0.084759 after 13952 accepted steps = sum([6880, 7072])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:30:55 : 21414 steps taken, and 7101 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:31:06 : 20653 steps taken, and 6915 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:31:56 : 21561 steps taken, and 7154 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:32:07 : 20797 steps taken, and 6961 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:32:57 : 21686 steps taken, and 7196 accepted.
+[1 : mcmc] Learn + convergence test @ 7200 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 15:33:07 : 20923 steps taken, and 7004 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:33:58 : 21830 steps taken, and 7251 accepted.
+[0 : mcmc] Learn + convergence test @ 7040 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6693924122848721, 0.6643164545371303])
+[0 : mcmc]  - Convergence of means: R-1 = 0.081433 after 14295 accepted steps = sum([7040, 7255])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 15:34:08 : 21046 steps taken, and 7044 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:34:59 : 21969 steps taken, and 7301 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:35:08 : 21169 steps taken, and 7084 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:35:59 : 22101 steps taken, and 7352 accepted.
+[1 : mcmc] Learn + convergence test @ 7360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 15:36:09 : 21291 steps taken, and 7123 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:36:59 : 22239 steps taken, and 7397 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:37:09 : 21424 steps taken, and 7167 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:38:00 : 22362 steps taken, and 7437 accepted.
+[0 : mcmc] Learn + convergence test @ 7200 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6687720601894854, 0.6651171106740569])
+[0 : mcmc]  - Convergence of means: R-1 = 0.086297 after 14640 accepted steps = sum([7200, 7440])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 15:38:10 : 21541 steps taken, and 7202 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:39:00 : 22481 steps taken, and 7471 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:39:11 : 21679 steps taken, and 7249 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:40:01 : 22613 steps taken, and 7520 accepted.
+[1 : mcmc] Learn + convergence test @ 7520 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 15:40:11 : 21805 steps taken, and 7294 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:41:01 : 22742 steps taken, and 7564 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:41:12 : 21938 steps taken, and 7345 accepted.
+[0 : mcmc] Learn + convergence test @ 7360 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6693343033830483, 0.6655562373980889])
+[0 : mcmc]  - Convergence of means: R-1 = 0.070010 after 14952 accepted steps = sum([7360, 7592])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:42:02 : 22865 steps taken, and 7608 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:42:12 : 22060 steps taken, and 7387 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:43:02 : 23016 steps taken, and 7655 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:43:13 : 22185 steps taken, and 7426 accepted.
+[1 : mcmc] Learn + convergence test @ 7680 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 15:44:03 : 23146 steps taken, and 7695 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:44:14 : 22305 steps taken, and 7468 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:45:03 : 23322 steps taken, and 7757 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:45:14 : 22451 steps taken, and 7510 accepted.
+[0 : mcmc] Learn + convergence test @ 7520 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6692177627480644, 0.664954631056326])
+[0 : mcmc]  - Convergence of means: R-1 = 0.055639 after 15288 accepted steps = sum([7520, 7768])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:46:04 : 23443 steps taken, and 7790 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:46:15 : 22579 steps taken, and 7557 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:47:04 : 23586 steps taken, and 7839 accepted.
+[1 : mcmc] Learn + convergence test @ 7840 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 15:47:16 : 22706 steps taken, and 7598 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:48:04 : 23709 steps taken, and 7881 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:48:17 : 22866 steps taken, and 7654 accepted.
+[0 : mcmc] Learn + convergence test @ 7680 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6696311797018049, 0.6648180825140745])
+[0 : mcmc]  - Convergence of means: R-1 = 0.046480 after 15592 accepted steps = sum([7680, 7912])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:49:04 : 23835 steps taken, and 7921 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:49:17 : 23001 steps taken, and 7699 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:50:05 : 23961 steps taken, and 7961 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:50:18 : 23130 steps taken, and 7744 accepted.
+[1 : mcmc] Learn + convergence test @ 8000 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 15:51:06 : 24148 steps taken, and 8022 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:51:19 : 23291 steps taken, and 7794 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:52:06 : 24293 steps taken, and 8065 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:52:19 : 23419 steps taken, and 7839 accepted.
+[0 : mcmc] Learn + convergence test @ 7840 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.667 = avg([0.6695132365499573, 0.6642545843269468])
+[0 : mcmc]  - Convergence of means: R-1 = 0.067591 after 15918 accepted steps = sum([7840, 8078])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:53:07 : 24428 steps taken, and 8108 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:53:19 : 23545 steps taken, and 7881 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:54:08 : 24565 steps taken, and 8160 accepted.
+[1 : mcmc] Learn + convergence test @ 8160 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 15:54:20 : 23726 steps taken, and 7933 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:55:09 : 24717 steps taken, and 8203 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:55:20 : 23894 steps taken, and 7977 accepted.
+[0 : mcmc] Learn + convergence test @ 8000 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.666 = avg([0.6678911337451995, 0.6640858133720461])
+[0 : mcmc]  - Convergence of means: R-1 = 0.055607 after 16234 accepted steps = sum([8000, 8234])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 15:56:10 : 24857 steps taken, and 8250 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:56:21 : 24032 steps taken, and 8026 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:57:10 : 25007 steps taken, and 8295 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:57:21 : 24164 steps taken, and 8062 accepted.
+[1 : mcmc] Learn + convergence test @ 8320 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 15:58:11 : 25129 steps taken, and 8339 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:58:22 : 24308 steps taken, and 8111 accepted.
+[1 : mcmc] Progress @ 2021-06-11 15:59:11 : 25259 steps taken, and 8376 accepted.
+[0 : mcmc] Progress @ 2021-06-11 15:59:22 : 24431 steps taken, and 8147 accepted.
+[0 : mcmc] Learn + convergence test @ 8160 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.665 = avg([0.6668846028113763, 0.6633483447894446])
+[0 : mcmc]  - Convergence of means: R-1 = 0.054100 after 16556 accepted steps = sum([8160, 8396])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:00:11 : 25385 steps taken, and 8415 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:00:23 : 24559 steps taken, and 8183 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:01:12 : 25504 steps taken, and 8452 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:01:23 : 24683 steps taken, and 8223 accepted.
+[1 : mcmc] Learn + convergence test @ 8480 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:02:12 : 25644 steps taken, and 8498 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:02:24 : 24824 steps taken, and 8270 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:03:12 : 25777 steps taken, and 8541 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:03:25 : 24996 steps taken, and 8318 accepted.
+[0 : mcmc] Learn + convergence test @ 8320 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6656, 0.6628438589693917])
+[0 : mcmc]  - Convergence of means: R-1 = 0.047642 after 16874 accepted steps = sum([8320, 8554])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:04:13 : 25916 steps taken, and 8584 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:04:26 : 25120 steps taken, and 8366 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:05:14 : 26055 steps taken, and 8630 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:05:26 : 25271 steps taken, and 8415 accepted.
+[1 : mcmc] Learn + convergence test @ 8640 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:06:14 : 26178 steps taken, and 8664 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:06:27 : 25415 steps taken, and 8464 accepted.
+[0 : mcmc] Learn + convergence test @ 8480 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6661953020661482, 0.6619160124990473])
+[0 : mcmc]  - Convergence of means: R-1 = 0.047509 after 17165 accepted steps = sum([8480, 8685])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:07:14 : 26318 steps taken, and 8710 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:07:28 : 25551 steps taken, and 8511 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:08:15 : 26472 steps taken, and 8763 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:08:29 : 25678 steps taken, and 8554 accepted.
+[1 : mcmc] Learn + convergence test @ 8800 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:09:15 : 26602 steps taken, and 8806 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:09:30 : 25840 steps taken, and 8606 accepted.
+[0 : mcmc] Learn + convergence test @ 8640 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6663581675150393, 0.6618021254303248])
+[0 : mcmc]  - Convergence of means: R-1 = 0.030933 after 17483 accepted steps = sum([8640, 8843])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:10:15 : 26736 steps taken, and 8846 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:10:30 : 25968 steps taken, and 8649 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:11:16 : 26877 steps taken, and 8885 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:11:31 : 26107 steps taken, and 8698 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:12:16 : 27000 steps taken, and 8926 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:12:31 : 26246 steps taken, and 8736 accepted.
+[1 : mcmc] Learn + convergence test @ 8960 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:13:17 : 27136 steps taken, and 8965 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:13:32 : 26384 steps taken, and 8782 accepted.
+[0 : mcmc] Learn + convergence test @ 8800 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6657084499583932, 0.6607169090641987])
+[0 : mcmc]  - Convergence of means: R-1 = 0.025006 after 17795 accepted steps = sum([8800, 8995])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:14:18 : 27260 steps taken, and 9005 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:14:32 : 26508 steps taken, and 8823 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:15:19 : 27408 steps taken, and 9050 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:15:32 : 26656 steps taken, and 8871 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:16:20 : 27544 steps taken, and 9103 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:16:33 : 26794 steps taken, and 8920 accepted.
+[1 : mcmc] Learn + convergence test @ 9120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:17:20 : 27686 steps taken, and 9153 accepted.
+[0 : mcmc] Learn + convergence test @ 8960 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6658244779668574, 0.661277517141826])
+[0 : mcmc]  - Convergence of means: R-1 = 0.027667 after 18122 accepted steps = sum([8960, 9162])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 16:17:34 : 26918 steps taken, and 8960 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:18:21 : 27819 steps taken, and 9198 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:18:34 : 27041 steps taken, and 8997 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:19:22 : 27951 steps taken, and 9248 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:19:35 : 27172 steps taken, and 9035 accepted.
+[1 : mcmc] Learn + convergence test @ 9280 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:20:22 : 28079 steps taken, and 9289 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:20:35 : 27295 steps taken, and 9072 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:21:22 : 28206 steps taken, and 9333 accepted.
+[0 : mcmc] Learn + convergence test @ 9120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6650138544553011, 0.6617553304526458])
+[0 : mcmc]  - Convergence of means: R-1 = 0.027330 after 18462 accepted steps = sum([9120, 9342])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 16:21:38 : 27431 steps taken, and 9120 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:22:23 : 28354 steps taken, and 9377 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:22:39 : 27555 steps taken, and 9166 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:23:23 : 28486 steps taken, and 9423 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:23:40 : 27714 steps taken, and 9216 accepted.
+[1 : mcmc] Learn + convergence test @ 9440 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:24:24 : 28616 steps taken, and 9466 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:24:40 : 27843 steps taken, and 9256 accepted.
+[0 : mcmc] Learn + convergence test @ 9280 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6649469762109487, 0.6613262747283366])
+[0 : mcmc]  - Convergence of means: R-1 = 0.027018 after 18774 accepted steps = sum([9280, 9494])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:25:25 : 28747 steps taken, and 9506 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:25:41 : 27975 steps taken, and 9302 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:26:25 : 28882 steps taken, and 9550 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:26:42 : 28140 steps taken, and 9354 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:27:25 : 29016 steps taken, and 9597 accepted.
+[1 : mcmc] Learn + convergence test @ 9600 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 16:27:42 : 28270 steps taken, and 9389 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:28:25 : 29150 steps taken, and 9648 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:28:43 : 28389 steps taken, and 9424 accepted.
+[0 : mcmc] Learn + convergence test @ 9440 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6637137031568586, 0.6623127949121247])
+[0 : mcmc]  - Convergence of means: R-1 = 0.030870 after 19125 accepted steps = sum([9440, 9685])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:29:25 : 29285 steps taken, and 9696 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:29:44 : 28526 steps taken, and 9463 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:30:26 : 29427 steps taken, and 9743 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:30:45 : 28656 steps taken, and 9503 accepted.
+[1 : mcmc] Learn + convergence test @ 9760 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:31:26 : 29586 steps taken, and 9784 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:31:45 : 28791 steps taken, and 9547 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:32:28 : 29715 steps taken, and 9827 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:32:45 : 28920 steps taken, and 9596 accepted.
+[0 : mcmc] Learn + convergence test @ 9600 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6636709298306257, 0.6616935483870968])
+[0 : mcmc]  - Convergence of means: R-1 = 0.030880 after 19446 accepted steps = sum([9600, 9846])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:33:28 : 29845 steps taken, and 9872 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:33:46 : 29054 steps taken, and 9641 accepted.
+[1 : mcmc] Learn + convergence test @ 9920 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:34:29 : 29997 steps taken, and 9930 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:34:47 : 29180 steps taken, and 9690 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:35:29 : 30170 steps taken, and 9989 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:35:48 : 29329 steps taken, and 9732 accepted.
+[0 : mcmc] Learn + convergence test @ 9760 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6641714869003063, 0.662172878667724])
+[0 : mcmc]  - Convergence of means: R-1 = 0.028975 after 19780 accepted steps = sum([9760, 10020])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:36:29 : 30299 steps taken, and 10031 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:36:49 : 29477 steps taken, and 9789 accepted.
+[1 : mcmc] Learn + convergence test @ 10080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:37:30 : 30446 steps taken, and 10083 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:37:50 : 29602 steps taken, and 9836 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:38:30 : 30575 steps taken, and 10123 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:38:51 : 29739 steps taken, and 9884 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:39:31 : 30709 steps taken, and 10162 accepted.
+[0 : mcmc] Learn + convergence test @ 9920 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6651022460610124, 0.6619342233800065])
+[0 : mcmc]  - Convergence of means: R-1 = 0.039315 after 20084 accepted steps = sum([9920, 10164])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 16:39:51 : 29867 steps taken, and 9930 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:40:31 : 30840 steps taken, and 10201 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:40:52 : 30002 steps taken, and 9975 accepted.
+[1 : mcmc] Learn + convergence test @ 10240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:41:32 : 30992 steps taken, and 10249 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:41:53 : 30123 steps taken, and 10018 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:42:33 : 31134 steps taken, and 10292 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:42:54 : 30267 steps taken, and 10060 accepted.
+[0 : mcmc] Learn + convergence test @ 10080 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6646445997626269, 0.6613749839969274])
+[0 : mcmc]  - Convergence of means: R-1 = 0.047432 after 20412 accepted steps = sum([10080, 10332])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:43:34 : 31266 steps taken, and 10337 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:43:55 : 30396 steps taken, and 10100 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:44:34 : 31404 steps taken, and 10385 accepted.
+[1 : mcmc] Learn + convergence test @ 10400 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 16:44:56 : 30527 steps taken, and 10142 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:45:34 : 31539 steps taken, and 10425 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:45:57 : 30651 steps taken, and 10183 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:46:34 : 31695 steps taken, and 10476 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:46:58 : 30779 steps taken, and 10224 accepted.
+[0 : mcmc] Learn + convergence test @ 10240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6643311275463865, 0.6614678322118106])
+[0 : mcmc]  - Convergence of means: R-1 = 0.041665 after 20758 accepted steps = sum([10240, 10518])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:47:34 : 31827 steps taken, and 10527 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:47:59 : 30904 steps taken, and 10269 accepted.
+[1 : mcmc] Learn + convergence test @ 10560 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:48:35 : 31975 steps taken, and 10572 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:48:59 : 31033 steps taken, and 10314 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:49:36 : 32131 steps taken, and 10622 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:50:00 : 31157 steps taken, and 10356 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:50:36 : 32332 steps taken, and 10683 accepted.
+[0 : mcmc] Learn + convergence test @ 10400 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6650892114855791, 0.6607793491014636])
+[0 : mcmc]  - Convergence of means: R-1 = 0.038608 after 21100 accepted steps = sum([10400, 10700])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 16:51:01 : 31279 steps taken, and 10400 accepted.
+[1 : mcmc] Learn + convergence test @ 10720 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 16:51:37 : 32474 steps taken, and 10724 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:52:02 : 31406 steps taken, and 10440 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:52:38 : 32620 steps taken, and 10776 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:53:03 : 31551 steps taken, and 10489 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:53:39 : 32755 steps taken, and 10817 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:54:04 : 31673 steps taken, and 10531 accepted.
+[0 : mcmc] Learn + convergence test @ 10560 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6653225806451613, 0.6606425702811245])
+[0 : mcmc]  - Convergence of means: R-1 = 0.041200 after 21417 accepted steps = sum([10560, 10857])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:54:39 : 32890 steps taken, and 10865 accepted.
+[1 : mcmc] Learn + convergence test @ 10880 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 16:55:05 : 31811 steps taken, and 10578 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:55:41 : 33035 steps taken, and 10914 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:56:05 : 31937 steps taken, and 10620 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:56:42 : 33164 steps taken, and 10962 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:57:06 : 32061 steps taken, and 10655 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:57:42 : 33316 steps taken, and 11008 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:58:07 : 32189 steps taken, and 10704 accepted.
+[1 : mcmc] Learn + convergence test @ 11040 samples accepted.
+[0 : mcmc] Learn + convergence test @ 10720 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6652187403040646, 0.6609002753501736])
+[0 : mcmc]  - Convergence of means: R-1 = 0.041339 after 21761 accepted steps = sum([10720, 11041])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 16:58:43 : 33439 steps taken, and 11047 accepted.
+[0 : mcmc] Progress @ 2021-06-11 16:59:08 : 32313 steps taken, and 10749 accepted.
+[1 : mcmc] Progress @ 2021-06-11 16:59:44 : 33566 steps taken, and 11086 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:00:09 : 32445 steps taken, and 10791 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:00:45 : 33702 steps taken, and 11133 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:01:09 : 32584 steps taken, and 10836 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:01:46 : 33850 steps taken, and 11182 accepted.
+[0 : mcmc] Learn + convergence test @ 10880 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 17:02:10 : 32735 steps taken, and 10881 accepted.
+[1 : mcmc] Learn + convergence test @ 11200 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6648747709224191, 0.6608839322593969])
+[0 : mcmc]  - Convergence of means: R-1 = 0.041641 after 22084 accepted steps = sum([10884, 11200])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:02:46 : 33983 steps taken, and 11230 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:03:11 : 32858 steps taken, and 10927 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:03:47 : 34114 steps taken, and 11272 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:04:11 : 32989 steps taken, and 10971 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:04:48 : 34257 steps taken, and 11322 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:05:12 : 33121 steps taken, and 11015 accepted.
+[1 : mcmc] Learn + convergence test @ 11360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 11040 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6652205350686913, 0.6610810496305347])
+[0 : mcmc]  - Convergence of means: R-1 = 0.043540 after 22402 accepted steps = sum([11040, 11362])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:05:49 : 34386 steps taken, and 11365 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:06:12 : 33268 steps taken, and 11061 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:06:50 : 34520 steps taken, and 11408 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:07:12 : 33401 steps taken, and 11104 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:07:51 : 34648 steps taken, and 11461 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:08:12 : 33541 steps taken, and 11152 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:08:52 : 34786 steps taken, and 11506 accepted.
+[0 : mcmc] Learn + convergence test @ 11200 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 11520 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 17:09:12 : 33671 steps taken, and 11203 accepted.
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6654588654588655, 0.661498708010336])
+[0 : mcmc]  - Convergence of means: R-1 = 0.041421 after 22723 accepted steps = sum([11203, 11520])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:09:52 : 34919 steps taken, and 11547 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:10:13 : 33805 steps taken, and 11247 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:10:52 : 35053 steps taken, and 11589 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:11:14 : 33943 steps taken, and 11285 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:11:53 : 35182 steps taken, and 11632 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:12:14 : 34081 steps taken, and 11328 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:12:54 : 35319 steps taken, and 11674 accepted.
+[0 : mcmc] Learn + convergence test @ 11360 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 11680 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6647943362003393, 0.6611570247933884])
+[0 : mcmc]  - Convergence of means: R-1 = 0.036144 after 23042 accepted steps = sum([11362, 11680])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 17:13:14 : 34210 steps taken, and 11371 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:13:55 : 35442 steps taken, and 11714 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:14:14 : 34345 steps taken, and 11411 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:14:55 : 35573 steps taken, and 11761 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:15:15 : 34469 steps taken, and 11455 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:15:55 : 35706 steps taken, and 11800 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:16:15 : 34594 steps taken, and 11494 accepted.
+[1 : mcmc] Learn + convergence test @ 11840 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 11520 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.66489668705991, 0.6611210361768647])
+[0 : mcmc]  - Convergence of means: R-1 = 0.034161 after 23362 accepted steps = sum([11520, 11842])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:16:55 : 35852 steps taken, and 11851 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:17:16 : 34715 steps taken, and 11542 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:17:55 : 35993 steps taken, and 11891 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:18:17 : 34850 steps taken, and 11584 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:18:55 : 36109 steps taken, and 11935 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:19:18 : 34979 steps taken, and 11638 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:19:56 : 36263 steps taken, and 11990 accepted.
+[1 : mcmc] Learn + convergence test @ 12000 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 11680 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6658685365714612, 0.6614858906525574])
+[0 : mcmc]  - Convergence of means: R-1 = 0.029412 after 23682 accepted steps = sum([11680, 12002])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 17:20:18 : 35105 steps taken, and 11686 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:20:56 : 36392 steps taken, and 12037 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:21:19 : 35244 steps taken, and 11734 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:21:57 : 36526 steps taken, and 12088 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:22:19 : 35364 steps taken, and 11775 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:22:58 : 36665 steps taken, and 12137 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:23:21 : 35510 steps taken, and 11824 accepted.
+[1 : mcmc] Learn + convergence test @ 12160 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 11840 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6658044199516392, 0.6621702474843623])
+[0 : mcmc]  - Convergence of means: R-1 = 0.037934 after 24014 accepted steps = sum([11840, 12174])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:23:58 : 36788 steps taken, and 12179 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:24:21 : 35643 steps taken, and 11868 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:24:59 : 36929 steps taken, and 12232 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:25:22 : 35778 steps taken, and 11912 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:25:59 : 37067 steps taken, and 12281 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:26:22 : 35931 steps taken, and 11961 accepted.
+[1 : mcmc] Learn + convergence test @ 12320 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 17:26:59 : 37203 steps taken, and 12326 accepted.
+[0 : mcmc] Learn + convergence test @ 12000 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6657789613848203, 0.662547017732402])
+[0 : mcmc]  - Convergence of means: R-1 = 0.036946 after 24330 accepted steps = sum([12000, 12330])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 17:27:23 : 36082 steps taken, and 12009 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:27:59 : 37354 steps taken, and 12366 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:28:24 : 36222 steps taken, and 12049 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:29:00 : 37495 steps taken, and 12414 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:29:25 : 36344 steps taken, and 12095 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:30:01 : 37624 steps taken, and 12460 accepted.
+[1 : mcmc] Learn + convergence test @ 12480 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 17:30:26 : 36457 steps taken, and 12132 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:31:01 : 37766 steps taken, and 12511 accepted.
+[0 : mcmc] Learn + convergence test @ 12160 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6653898768809849, 0.6626257278983589])
+[0 : mcmc]  - Convergence of means: R-1 = 0.033003 after 24677 accepted steps = sum([12160, 12517])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 17:31:27 : 36591 steps taken, and 12171 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:32:01 : 37909 steps taken, and 12560 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:32:28 : 36733 steps taken, and 12206 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:33:03 : 38045 steps taken, and 12595 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:33:29 : 36859 steps taken, and 12247 accepted.
+[1 : mcmc] Learn + convergence test @ 12640 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 17:34:03 : 38192 steps taken, and 12645 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:34:30 : 37025 steps taken, and 12300 accepted.
+[0 : mcmc] Learn + convergence test @ 12320 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.664473329378135, 0.662750626566416])
+[0 : mcmc]  - Convergence of means: R-1 = 0.028807 after 25013 accepted steps = sum([12320, 12693])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:35:03 : 38328 steps taken, and 12700 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:35:31 : 37158 steps taken, and 12338 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:36:03 : 38450 steps taken, and 12735 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:36:32 : 37302 steps taken, and 12389 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:37:03 : 38581 steps taken, and 12783 accepted.
+[1 : mcmc] Learn + convergence test @ 12800 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 17:37:32 : 37430 steps taken, and 12432 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:38:04 : 38732 steps taken, and 12830 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:38:33 : 37554 steps taken, and 12478 accepted.
+[0 : mcmc] Learn + convergence test @ 12480 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6645721284413441, 0.6623898593291081])
+[0 : mcmc]  - Convergence of means: R-1 = 0.030383 after 25335 accepted steps = sum([12480, 12855])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:39:05 : 38882 steps taken, and 12880 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:39:33 : 37676 steps taken, and 12519 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:40:06 : 39014 steps taken, and 12926 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:40:34 : 37808 steps taken, and 12559 accepted.
+[1 : mcmc] Learn + convergence test @ 12960 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 17:41:07 : 39180 steps taken, and 12983 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:41:34 : 37942 steps taken, and 12603 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:42:08 : 39309 steps taken, and 13025 accepted.
+[0 : mcmc] Learn + convergence test @ 12640 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6643540418374856, 0.6628019323671498])
+[0 : mcmc]  - Convergence of means: R-1 = 0.026811 after 25674 accepted steps = sum([12640, 13034])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 17:42:34 : 38096 steps taken, and 12656 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:43:09 : 39441 steps taken, and 13067 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:43:35 : 38237 steps taken, and 12704 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:44:10 : 39583 steps taken, and 13114 accepted.
+[1 : mcmc] Learn + convergence test @ 13120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 17:44:35 : 38364 steps taken, and 12748 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:45:10 : 39724 steps taken, and 13166 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:45:36 : 38493 steps taken, and 12791 accepted.
+[0 : mcmc] Learn + convergence test @ 12800 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6646588430782012, 0.6628660404842032])
+[0 : mcmc]  - Convergence of means: R-1 = 0.022666 after 25997 accepted steps = sum([12800, 13197])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:46:11 : 39882 steps taken, and 13216 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:46:36 : 38630 steps taken, and 12832 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:47:12 : 40000 steps taken, and 13254 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:47:36 : 38763 steps taken, and 12868 accepted.
+[1 : mcmc] Learn + convergence test @ 13280 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 17:48:13 : 40151 steps taken, and 13306 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:48:37 : 38899 steps taken, and 12921 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:49:13 : 40275 steps taken, and 13354 accepted.
+[0 : mcmc] Learn + convergence test @ 12960 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6645131518227965, 0.6631108905978665])
+[0 : mcmc]  - Convergence of means: R-1 = 0.023856 after 26325 accepted steps = sum([12960, 13365])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 17:49:37 : 39020 steps taken, and 12964 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:50:13 : 40425 steps taken, and 13395 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:50:38 : 39151 steps taken, and 13005 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:51:14 : 40563 steps taken, and 13435 accepted.
+[1 : mcmc] Learn + convergence test @ 13440 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 17:51:39 : 39280 steps taken, and 13047 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:52:15 : 40691 steps taken, and 13477 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:52:39 : 39405 steps taken, and 13089 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:53:16 : 40821 steps taken, and 13519 accepted.
+[0 : mcmc] Learn + convergence test @ 13120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6644047197042589, 0.6624216300940439])
+[0 : mcmc]  - Convergence of means: R-1 = 0.019190 after 26644 accepted steps = sum([13120, 13524])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 17:53:40 : 39533 steps taken, and 13129 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:54:17 : 40958 steps taken, and 13565 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:54:40 : 39666 steps taken, and 13173 accepted.
+[1 : mcmc] Learn + convergence test @ 13600 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 17:55:17 : 41089 steps taken, and 13616 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:55:40 : 39795 steps taken, and 13221 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:56:19 : 41225 steps taken, and 13663 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:56:41 : 39921 steps taken, and 13268 accepted.
+[0 : mcmc] Learn + convergence test @ 13280 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6647977573087706, 0.6626966836117163])
+[0 : mcmc]  - Convergence of means: R-1 = 0.018142 after 26968 accepted steps = sum([13280, 13688])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 17:57:19 : 41368 steps taken, and 13703 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:57:41 : 40039 steps taken, and 13307 accepted.
+[1 : mcmc] Progress @ 2021-06-11 17:58:19 : 41492 steps taken, and 13744 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:58:41 : 40171 steps taken, and 13345 accepted.
+[1 : mcmc] Learn + convergence test @ 13760 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 17:59:19 : 41629 steps taken, and 13788 accepted.
+[0 : mcmc] Progress @ 2021-06-11 17:59:42 : 40306 steps taken, and 13381 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:00:20 : 41762 steps taken, and 13828 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:00:42 : 40458 steps taken, and 13432 accepted.
+[0 : mcmc] Learn + convergence test @ 13440 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6639004149377593, 0.6623488360977009])
+[0 : mcmc]  - Convergence of means: R-1 = 0.016718 after 27297 accepted steps = sum([13440, 13857])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 18:01:20 : 41907 steps taken, and 13875 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:01:43 : 40623 steps taken, and 13480 accepted.
+[1 : mcmc] Learn + convergence test @ 13920 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:02:20 : 42042 steps taken, and 13921 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:02:44 : 40772 steps taken, and 13533 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:03:20 : 42170 steps taken, and 13965 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:03:44 : 40906 steps taken, and 13576 accepted.
+[0 : mcmc] Learn + convergence test @ 13600 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6639976564788594, 0.6625041388770635])
+[0 : mcmc]  - Convergence of means: R-1 = 0.020605 after 27606 accepted steps = sum([13600, 14006])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 18:04:20 : 42297 steps taken, and 14009 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:04:45 : 41032 steps taken, and 13624 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:05:21 : 42442 steps taken, and 14060 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:05:46 : 41153 steps taken, and 13665 accepted.
+[1 : mcmc] Learn + convergence test @ 14080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:06:21 : 42584 steps taken, and 14112 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:06:47 : 41299 steps taken, and 13718 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:07:21 : 42725 steps taken, and 14159 accepted.
+[0 : mcmc] Learn + convergence test @ 13760 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6642850246210292, 0.6629570747217806])
+[0 : mcmc]  - Convergence of means: R-1 = 0.019278 after 27938 accepted steps = sum([13760, 14178])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:07:47 : 41431 steps taken, and 13760 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:08:22 : 42849 steps taken, and 14203 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:08:48 : 41561 steps taken, and 13803 accepted.
+[1 : mcmc] Learn + convergence test @ 14240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:09:22 : 42979 steps taken, and 14250 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:09:49 : 41712 steps taken, and 13845 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:10:22 : 43120 steps taken, and 14298 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:10:49 : 41855 steps taken, and 13892 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:11:23 : 43254 steps taken, and 14342 accepted.
+[0 : mcmc] Learn + convergence test @ 13920 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6640587730178418, 0.6632294460371775])
+[0 : mcmc]  - Convergence of means: R-1 = 0.020205 after 28263 accepted steps = sum([13920, 14343])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:11:51 : 41984 steps taken, and 13935 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:12:23 : 43399 steps taken, and 14392 accepted.
+[1 : mcmc] Learn + convergence test @ 14400 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 18:12:51 : 42133 steps taken, and 13981 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:13:24 : 43539 steps taken, and 14440 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:13:51 : 42281 steps taken, and 14029 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:14:25 : 43681 steps taken, and 14482 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:14:52 : 42402 steps taken, and 14067 accepted.
+[0 : mcmc] Learn + convergence test @ 14080 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6635249764373233, 0.6631030701754386])
+[0 : mcmc]  - Convergence of means: R-1 = 0.025952 after 28594 accepted steps = sum([14080, 14514])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 18:15:26 : 43814 steps taken, and 14525 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:15:53 : 42550 steps taken, and 14114 accepted.
+[1 : mcmc] Learn + convergence test @ 14560 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:16:27 : 43939 steps taken, and 14564 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:16:53 : 42689 steps taken, and 14156 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:17:28 : 44117 steps taken, and 14622 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:17:54 : 42825 steps taken, and 14206 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:18:29 : 44255 steps taken, and 14671 accepted.
+[0 : mcmc] Learn + convergence test @ 14240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6634673624376834, 0.663144585929739])
+[0 : mcmc]  - Convergence of means: R-1 = 0.025670 after 28926 accepted steps = sum([14240, 14686])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:18:55 : 42954 steps taken, and 14249 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:19:30 : 44387 steps taken, and 14717 accepted.
+[1 : mcmc] Learn + convergence test @ 14720 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 18:19:56 : 43083 steps taken, and 14292 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:20:30 : 44509 steps taken, and 14758 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:20:57 : 43216 steps taken, and 14336 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:21:30 : 44646 steps taken, and 14808 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:21:58 : 43343 steps taken, and 14374 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:22:31 : 44787 steps taken, and 14856 accepted.
+[0 : mcmc] Learn + convergence test @ 14400 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.663411038422556, 0.6634366348128963])
+[0 : mcmc]  - Convergence of means: R-1 = 0.027570 after 29257 accepted steps = sum([14400, 14857])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:22:58 : 43465 steps taken, and 14418 accepted.
+[1 : mcmc] Learn + convergence test @ 14880 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:23:32 : 44919 steps taken, and 14898 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:23:59 : 43600 steps taken, and 14461 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:24:33 : 45053 steps taken, and 14939 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:25:00 : 43740 steps taken, and 14503 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:25:33 : 45189 steps taken, and 14984 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:26:01 : 43865 steps taken, and 14549 accepted.
+[0 : mcmc] Learn + convergence test @ 14560 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6634768740031898, 0.6633099244733006])
+[0 : mcmc]  - Convergence of means: R-1 = 0.025418 after 29578 accepted steps = sum([14560, 15018])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 18:26:34 : 45335 steps taken, and 15035 accepted.
+[1 : mcmc] Learn + convergence test @ 15040 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 18:27:02 : 44020 steps taken, and 14599 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:27:35 : 45456 steps taken, and 15078 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:28:02 : 44149 steps taken, and 14645 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:28:35 : 45583 steps taken, and 15123 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:29:03 : 44282 steps taken, and 14693 accepted.
+[0 : mcmc] Learn + convergence test @ 14720 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[1 : mcmc] Progress @ 2021-06-11 18:29:37 : 45739 steps taken, and 15171 accepted.
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6637507327411282, 0.6634598565681301])
+[0 : mcmc]  - Convergence of means: R-1 = 0.024212 after 29892 accepted steps = sum([14720, 15172])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:30:04 : 44416 steps taken, and 14737 accepted.
+[1 : mcmc] Learn + convergence test @ 15200 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:30:37 : 45874 steps taken, and 15220 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:31:04 : 44591 steps taken, and 14791 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:31:37 : 46001 steps taken, and 15264 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:32:05 : 44723 steps taken, and 14836 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:32:37 : 46125 steps taken, and 15303 accepted.
+[0 : mcmc] Learn + convergence test @ 14880 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.663131155577343, 0.6636781011781012])
+[0 : mcmc]  - Convergence of means: R-1 = 0.023111 after 30203 accepted steps = sum([14880, 15323])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:33:05 : 44884 steps taken, and 14882 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:33:37 : 46264 steps taken, and 15349 accepted.
+[1 : mcmc] Learn + convergence test @ 15360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 18:34:06 : 45011 steps taken, and 14927 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:34:38 : 46382 steps taken, and 15384 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:35:07 : 45156 steps taken, and 14976 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:35:39 : 46529 steps taken, and 15439 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:36:07 : 45301 steps taken, and 15023 accepted.
+[0 : mcmc] Learn + convergence test @ 15040 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6633440656287214, 0.663764261816934])
+[0 : mcmc]  - Convergence of means: R-1 = 0.026485 after 30515 accepted steps = sum([15040, 15475])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 18:36:40 : 46657 steps taken, and 15484 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:37:08 : 45427 steps taken, and 15072 accepted.
+[1 : mcmc] Learn + convergence test @ 15520 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:37:40 : 46807 steps taken, and 15532 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:38:08 : 45563 steps taken, and 15119 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:38:40 : 46945 steps taken, and 15578 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:39:09 : 45690 steps taken, and 15162 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:39:41 : 47095 steps taken, and 15637 accepted.
+[0 : mcmc] Learn + convergence test @ 15200 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6638424247718042, 0.6639796351294018])
+[0 : mcmc]  - Convergence of means: R-1 = 0.025706 after 30850 accepted steps = sum([15200, 15650])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:40:10 : 45808 steps taken, and 15205 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:40:43 : 47224 steps taken, and 15673 accepted.
+[1 : mcmc] Learn + convergence test @ 15680 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 18:41:10 : 45965 steps taken, and 15258 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:41:43 : 47358 steps taken, and 15714 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:42:11 : 46105 steps taken, and 15300 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:42:43 : 47474 steps taken, and 15754 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:43:12 : 46262 steps taken, and 15352 accepted.
+[0 : mcmc] Learn + convergence test @ 15360 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6637282862328234, 0.663890991672975])
+[0 : mcmc]  - Convergence of means: R-1 = 0.024433 after 31146 accepted steps = sum([15360, 15786])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 18:43:43 : 47593 steps taken, and 15794 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:44:13 : 46398 steps taken, and 15394 accepted.
+[1 : mcmc] Learn + convergence test @ 15840 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:44:44 : 47770 steps taken, and 15855 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:45:14 : 46530 steps taken, and 15437 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:45:44 : 47908 steps taken, and 15900 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:46:15 : 46682 steps taken, and 15484 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:46:45 : 48040 steps taken, and 15946 accepted.
+[0 : mcmc] Learn + convergence test @ 15520 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.664 = avg([0.6635030567312215, 0.6639890119037709])
+[0 : mcmc]  - Convergence of means: R-1 = 0.021988 after 31473 accepted steps = sum([15520, 15953])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:47:15 : 46824 steps taken, and 15532 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:47:45 : 48172 steps taken, and 15993 accepted.
+[1 : mcmc] Learn + convergence test @ 16000 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 18:48:15 : 46959 steps taken, and 15568 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:48:46 : 48311 steps taken, and 16034 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:49:16 : 47104 steps taken, and 15619 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:49:47 : 48447 steps taken, and 16081 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:50:17 : 47238 steps taken, and 15660 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:50:48 : 48597 steps taken, and 16133 accepted.
+[0 : mcmc] Learn + convergence test @ 15680 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6628339533310788, 0.6640052679232858])
+[0 : mcmc]  - Convergence of means: R-1 = 0.020227 after 31814 accepted steps = sum([15680, 16134])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:51:18 : 47364 steps taken, and 15692 accepted.
+[1 : mcmc] Learn + convergence test @ 16160 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:51:48 : 48723 steps taken, and 16172 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:52:18 : 47493 steps taken, and 15739 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:52:48 : 48872 steps taken, and 16215 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:53:19 : 47630 steps taken, and 15784 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:53:49 : 49041 steps taken, and 16265 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:54:19 : 47771 steps taken, and 15833 accepted.
+[0 : mcmc] Learn + convergence test @ 15840 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6629279316983343, 0.6629080843442156])
+[0 : mcmc]  - Convergence of means: R-1 = 0.021398 after 32125 accepted steps = sum([15840, 16285])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 18:54:49 : 49183 steps taken, and 16302 accepted.
+[1 : mcmc] Learn + convergence test @ 16320 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 18:55:20 : 47882 steps taken, and 15864 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:55:49 : 49322 steps taken, and 16351 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:56:21 : 48004 steps taken, and 15905 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:56:50 : 49460 steps taken, and 16405 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:57:22 : 48166 steps taken, and 15964 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:57:51 : 49595 steps taken, and 16448 accepted.
+[0 : mcmc] Learn + convergence test @ 16000 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.662745422914423, 0.6633228587543308])
+[0 : mcmc]  - Convergence of means: R-1 = 0.019972 after 32465 accepted steps = sum([16000, 16465])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 18:58:22 : 48302 steps taken, and 16003 accepted.
+[1 : mcmc] Learn + convergence test @ 16480 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 18:58:52 : 49719 steps taken, and 16492 accepted.
+[0 : mcmc] Progress @ 2021-06-11 18:59:22 : 48432 steps taken, and 16044 accepted.
+[1 : mcmc] Progress @ 2021-06-11 18:59:52 : 49883 steps taken, and 16536 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:00:23 : 48599 steps taken, and 16095 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:00:52 : 50031 steps taken, and 16588 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:01:23 : 48735 steps taken, and 16141 accepted.
+[0 : mcmc] Learn + convergence test @ 16160 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6625394612767004, 0.6631704885343969])
+[0 : mcmc]  - Convergence of means: R-1 = 0.021185 after 32789 accepted steps = sum([16160, 16629])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 19:01:53 : 50163 steps taken, and 16633 accepted.
+[1 : mcmc] Learn + convergence test @ 16640 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 19:02:23 : 48856 steps taken, and 16182 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:02:54 : 50303 steps taken, and 16680 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:03:24 : 48993 steps taken, and 16218 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:03:55 : 50443 steps taken, and 16727 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:04:25 : 49116 steps taken, and 16263 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:04:56 : 50592 steps taken, and 16775 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:05:26 : 49250 steps taken, and 16309 accepted.
+[1 : mcmc] Learn + convergence test @ 16800 samples accepted.
+[0 : mcmc] Learn + convergence test @ 16320 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6624183139180907, 0.6631819795652688])
+[0 : mcmc]  - Convergence of means: R-1 = 0.020273 after 33131 accepted steps = sum([16320, 16811])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 19:05:57 : 50732 steps taken, and 16820 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:06:26 : 49366 steps taken, and 16345 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:06:57 : 50880 steps taken, and 16865 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:07:26 : 49504 steps taken, and 16388 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:07:57 : 51018 steps taken, and 16911 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:08:26 : 49679 steps taken, and 16453 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:08:57 : 51138 steps taken, and 16948 accepted.
+[0 : mcmc] Learn + convergence test @ 16480 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 16960 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6624608213453347, 0.6629661480728637])
+[0 : mcmc]  - Convergence of means: R-1 = 0.019450 after 33446 accepted steps = sum([16486, 16960])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:09:27 : 49813 steps taken, and 16499 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:09:58 : 51264 steps taken, and 16992 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:10:28 : 49945 steps taken, and 16544 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:10:58 : 51400 steps taken, and 17039 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:11:28 : 50095 steps taken, and 16590 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:11:58 : 51533 steps taken, and 17079 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:12:29 : 50216 steps taken, and 16628 accepted.
+[0 : mcmc] Learn + convergence test @ 16640 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 17120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6623831310921027, 0.6630005421733406])
+[0 : mcmc]  - Convergence of means: R-1 = 0.020646 after 33769 accepted steps = sum([16649, 17120])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 19:12:59 : 51660 steps taken, and 17123 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:13:30 : 50359 steps taken, and 16679 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:14:00 : 51785 steps taken, and 17168 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:14:31 : 50484 steps taken, and 16723 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:15:00 : 51918 steps taken, and 17213 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:15:32 : 50616 steps taken, and 16773 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:16:01 : 52072 steps taken, and 17269 accepted.
+[1 : mcmc] Learn + convergence test @ 17280 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 16800 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6628003314001657, 0.6633914178245183])
+[0 : mcmc]  - Convergence of means: R-1 = 0.018393 after 34084 accepted steps = sum([16800, 17284])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:16:32 : 50727 steps taken, and 16811 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:17:01 : 52222 steps taken, and 17323 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:17:32 : 50855 steps taken, and 16853 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:18:01 : 52359 steps taken, and 17371 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:18:32 : 50988 steps taken, and 16889 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:19:02 : 52495 steps taken, and 17413 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:19:33 : 51113 steps taken, and 16933 accepted.
+[1 : mcmc] Learn + convergence test @ 17440 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 19:20:02 : 52636 steps taken, and 17462 accepted.
+[0 : mcmc] Learn + convergence test @ 16960 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6626035318018441, 0.6634882042320405])
+[0 : mcmc]  - Convergence of means: R-1 = 0.018698 after 34425 accepted steps = sum([16960, 17465])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:20:34 : 51249 steps taken, and 16980 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:21:03 : 52763 steps taken, and 17497 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:21:34 : 51423 steps taken, and 17044 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:22:04 : 52892 steps taken, and 17543 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:22:35 : 51547 steps taken, and 17089 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:23:05 : 53041 steps taken, and 17595 accepted.
+[1 : mcmc] Learn + convergence test @ 17600 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 17120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6630518977536793, 0.6635271069585201])
+[0 : mcmc]  - Convergence of means: R-1 = 0.022896 after 34732 accepted steps = sum([17120, 17612])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:23:35 : 51670 steps taken, and 17130 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:24:06 : 53216 steps taken, and 17642 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:24:35 : 51824 steps taken, and 17176 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:25:06 : 53347 steps taken, and 17682 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:25:36 : 51963 steps taken, and 17226 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:26:07 : 53485 steps taken, and 17727 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:26:37 : 52105 steps taken, and 17267 accepted.
+[1 : mcmc] Learn + convergence test @ 17760 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 17280 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6627545736969278, 0.6629611668594024])
+[0 : mcmc]  - Convergence of means: R-1 = 0.023312 after 35052 accepted steps = sum([17280, 17772])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 19:27:08 : 53629 steps taken, and 17773 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:27:38 : 52225 steps taken, and 17305 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:28:09 : 53773 steps taken, and 17816 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:28:39 : 52351 steps taken, and 17351 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:29:09 : 53904 steps taken, and 17857 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:29:39 : 52479 steps taken, and 17394 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:30:10 : 54035 steps taken, and 17899 accepted.
+[0 : mcmc] Learn + convergence test @ 17440 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 17920 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6630678578217069, 0.6625993714180071])
+[0 : mcmc]  - Convergence of means: R-1 = 0.020313 after 35362 accepted steps = sum([17442, 17920])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:30:40 : 52642 steps taken, and 17449 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:31:11 : 54180 steps taken, and 17947 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:31:41 : 52779 steps taken, and 17505 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:32:11 : 54339 steps taken, and 17997 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:32:42 : 52916 steps taken, and 17548 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:33:12 : 54463 steps taken, and 18039 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:33:43 : 53048 steps taken, and 17595 accepted.
+[0 : mcmc] Learn + convergence test @ 17600 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 19:34:13 : 54590 steps taken, and 18077 accepted.
+[1 : mcmc] Learn + convergence test @ 18080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6633790091853636, 0.6623438473092281])
+[0 : mcmc]  - Convergence of means: R-1 = 0.019918 after 35702 accepted steps = sum([17622, 18080])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:34:43 : 53188 steps taken, and 17641 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:35:14 : 54723 steps taken, and 18127 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:35:44 : 53331 steps taken, and 17691 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:36:14 : 54852 steps taken, and 18174 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:36:45 : 53467 steps taken, and 17737 accepted.
+[0 : mcmc] Learn + convergence test @ 17760 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 19:37:15 : 54981 steps taken, and 18209 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:37:45 : 53601 steps taken, and 17783 accepted.
+[1 : mcmc] Learn + convergence test @ 18240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6636075359074799, 0.6626221527954372])
+[0 : mcmc]  - Convergence of means: R-1 = 0.017076 after 36028 accepted steps = sum([17788, 18240])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 19:38:16 : 55110 steps taken, and 18257 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:38:45 : 53724 steps taken, and 17828 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:39:17 : 55243 steps taken, and 18302 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:39:46 : 53859 steps taken, and 17858 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:40:17 : 55398 steps taken, and 18349 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:40:47 : 54006 steps taken, and 17897 accepted.
+[0 : mcmc] Learn + convergence test @ 17920 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 19:41:17 : 55531 steps taken, and 18392 accepted.
+[1 : mcmc] Learn + convergence test @ 18400 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6628353906423239, 0.6624185477193362])
+[0 : mcmc]  - Convergence of means: R-1 = 0.016894 after 36335 accepted steps = sum([17935, 18400])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:41:47 : 54141 steps taken, and 17942 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:42:18 : 55653 steps taken, and 18423 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:42:48 : 54280 steps taken, and 17999 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:43:19 : 55781 steps taken, and 18463 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:43:48 : 54427 steps taken, and 18048 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:44:19 : 55909 steps taken, and 18505 accepted.
+[0 : mcmc] Learn + convergence test @ 18080 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 19:44:48 : 54569 steps taken, and 18102 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:45:19 : 56057 steps taken, and 18557 accepted.
+[1 : mcmc] Learn + convergence test @ 18560 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6633474886513399, 0.6621476988940421])
+[0 : mcmc]  - Convergence of means: R-1 = 0.013473 after 36680 accepted steps = sum([18120, 18560])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:45:49 : 54694 steps taken, and 18142 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:46:19 : 56179 steps taken, and 18594 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:46:50 : 54846 steps taken, and 18192 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:47:20 : 56317 steps taken, and 18642 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:47:51 : 54979 steps taken, and 18237 accepted.
+[0 : mcmc] Learn + convergence test @ 18240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 19:48:20 : 56459 steps taken, and 18691 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:48:51 : 55119 steps taken, and 18274 accepted.
+[1 : mcmc] Learn + convergence test @ 18720 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6631361311618121, 0.6620689655172414])
+[0 : mcmc]  - Convergence of means: R-1 = 0.014001 after 37002 accepted steps = sum([18282, 18720])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 19:49:20 : 56600 steps taken, and 18739 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:49:52 : 55271 steps taken, and 18328 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:50:21 : 56731 steps taken, and 18788 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:50:52 : 55408 steps taken, and 18371 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:51:21 : 56870 steps taken, and 18833 accepted.
+[0 : mcmc] Learn + convergence test @ 18400 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 19:51:53 : 55537 steps taken, and 18413 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:52:22 : 57006 steps taken, and 18877 accepted.
+[1 : mcmc] Learn + convergence test @ 18880 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6630469957930315, 0.6623631770979511])
+[0 : mcmc]  - Convergence of means: R-1 = 0.012504 after 37320 accepted steps = sum([18440, 18880])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:52:54 : 55683 steps taken, and 18463 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:53:23 : 57137 steps taken, and 18922 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:53:55 : 55818 steps taken, and 18512 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:54:23 : 57270 steps taken, and 18966 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:54:55 : 55939 steps taken, and 18550 accepted.
+[0 : mcmc] Learn + convergence test @ 18560 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 19:55:24 : 57410 steps taken, and 19006 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:55:56 : 56076 steps taken, and 18596 accepted.
+[1 : mcmc] Learn + convergence test @ 19040 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6631507679150482, 0.6620536179978441])
+[0 : mcmc]  - Convergence of means: R-1 = 0.010349 after 37650 accepted steps = sum([18610, 19040])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 19:56:24 : 57531 steps taken, and 19045 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:56:57 : 56205 steps taken, and 18635 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:57:24 : 57701 steps taken, and 19095 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:57:57 : 56337 steps taken, and 18673 accepted.
+[1 : mcmc] Progress @ 2021-06-11 19:58:25 : 57837 steps taken, and 19138 accepted.
+[0 : mcmc] Progress @ 2021-06-11 19:58:58 : 56475 steps taken, and 18713 accepted.
+[0 : mcmc] Learn + convergence test @ 18720 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 19:59:25 : 58000 steps taken, and 19192 accepted.
+[1 : mcmc] Learn + convergence test @ 19200 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.662 = avg([0.6628351135318667, 0.6618635595849564])
+[0 : mcmc]  - Convergence of means: R-1 = 0.012106 after 37941 accepted steps = sum([18741, 19200])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 19:59:59 : 56607 steps taken, and 18759 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:00:25 : 58141 steps taken, and 19240 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:01:00 : 56747 steps taken, and 18805 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:01:25 : 58304 steps taken, and 19299 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:02:01 : 56880 steps taken, and 18856 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:02:27 : 58443 steps taken, and 19347 accepted.
+[0 : mcmc] Learn + convergence test @ 18880 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 19360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6630736280327235, 0.6620840600526657])
+[0 : mcmc]  - Convergence of means: R-1 = 0.013994 after 38245 accepted steps = sum([18885, 19360])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:03:01 : 56999 steps taken, and 18896 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:03:28 : 58576 steps taken, and 19390 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:04:02 : 57144 steps taken, and 18938 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:04:28 : 58714 steps taken, and 19434 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:05:03 : 57280 steps taken, and 18982 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:05:28 : 58851 steps taken, and 19485 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:06:03 : 57420 steps taken, and 19032 accepted.
+[1 : mcmc] Learn + convergence test @ 19520 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 19040 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6629295637338533, 0.6624376674921131])
+[0 : mcmc]  - Convergence of means: R-1 = 0.014545 after 38568 accepted steps = sum([19040, 19528])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 20:06:28 : 58984 steps taken, and 19536 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:07:03 : 57551 steps taken, and 19070 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:07:29 : 59114 steps taken, and 19568 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:08:04 : 57690 steps taken, and 19119 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:08:30 : 59242 steps taken, and 19613 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:09:05 : 57822 steps taken, and 19167 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:09:31 : 59378 steps taken, and 19658 accepted.
+[0 : mcmc] Learn + convergence test @ 19200 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 19680 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.66306449385444, 0.6623586429725363])
+[0 : mcmc]  - Convergence of means: R-1 = 0.013375 after 38885 accepted steps = sum([19205, 19680])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:10:06 : 57956 steps taken, and 19212 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:10:32 : 59514 steps taken, and 19707 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:11:07 : 58084 steps taken, and 19255 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:11:33 : 59644 steps taken, and 19753 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:12:08 : 58236 steps taken, and 19301 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:12:33 : 59778 steps taken, and 19792 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:13:09 : 58371 steps taken, and 19353 accepted.
+[0 : mcmc] Learn + convergence test @ 19360 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 20:13:34 : 59893 steps taken, and 19832 accepted.
+[1 : mcmc] Learn + convergence test @ 19840 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6631773399014779, 0.6622604980305762])
+[0 : mcmc]  - Convergence of means: R-1 = 0.013531 after 39226 accepted steps = sum([19386, 19840])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:14:09 : 58509 steps taken, and 19400 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:14:35 : 60022 steps taken, and 19875 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:15:09 : 58659 steps taken, and 19450 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:15:35 : 60147 steps taken, and 19911 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:16:10 : 58786 steps taken, and 19491 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:16:36 : 60288 steps taken, and 19958 accepted.
+[0 : mcmc] Learn + convergence test @ 19520 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 20:17:11 : 58916 steps taken, and 19536 accepted.
+[1 : mcmc] Learn + convergence test @ 20000 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6631836070023069, 0.6622735852180536])
+[0 : mcmc]  - Convergence of means: R-1 = 0.017187 after 39548 accepted steps = sum([19548, 20000])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 20:17:37 : 60425 steps taken, and 20005 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:18:11 : 59079 steps taken, and 19588 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:18:38 : 60578 steps taken, and 20059 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:19:12 : 59231 steps taken, and 19631 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:19:39 : 60737 steps taken, and 20110 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:20:12 : 59357 steps taken, and 19678 accepted.
+[0 : mcmc] Learn + convergence test @ 19680 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 20:20:39 : 60869 steps taken, and 20158 accepted.
+[1 : mcmc] Learn + convergence test @ 20160 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6630548171080526, 0.6623517429444427])
+[0 : mcmc]  - Convergence of means: R-1 = 0.019067 after 39864 accepted steps = sum([19704, 20160])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:21:12 : 59502 steps taken, and 19730 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:21:39 : 60999 steps taken, and 20197 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:22:13 : 59629 steps taken, and 19771 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:22:40 : 61141 steps taken, and 20249 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:23:14 : 59750 steps taken, and 19809 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:23:41 : 61284 steps taken, and 20298 accepted.
+[0 : mcmc] Learn + convergence test @ 19840 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 20320 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.663037306703183, 0.6624286878565607])
+[0 : mcmc]  - Convergence of means: R-1 = 0.021955 after 40172 accepted steps = sum([19852, 20320])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:24:14 : 59901 steps taken, and 19856 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:24:41 : 61432 steps taken, and 20351 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:25:15 : 60039 steps taken, and 19899 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:25:42 : 61572 steps taken, and 20400 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:26:16 : 60159 steps taken, and 19935 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:26:42 : 61728 steps taken, and 20447 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:27:16 : 60288 steps taken, and 19974 accepted.
+[1 : mcmc] Learn + convergence test @ 20480 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 20:27:43 : 61856 steps taken, and 20486 accepted.
+[0 : mcmc] Learn + convergence test @ 20000 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6626905235255136, 0.6623892947184692])
+[0 : mcmc]  - Convergence of means: R-1 = 0.023393 after 40493 accepted steps = sum([20000, 20493])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:28:17 : 60408 steps taken, and 20018 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:28:44 : 62009 steps taken, and 20536 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:29:18 : 60549 steps taken, and 20057 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:29:45 : 62133 steps taken, and 20584 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:30:18 : 60703 steps taken, and 20103 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:30:46 : 62272 steps taken, and 20629 accepted.
+[1 : mcmc] Learn + convergence test @ 20640 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 20:31:19 : 60832 steps taken, and 20149 accepted.
+[0 : mcmc] Learn + convergence test @ 20160 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.662482337090467, 0.6625737368556041])
+[0 : mcmc]  - Convergence of means: R-1 = 0.021665 after 40827 accepted steps = sum([20160, 20667])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 20:31:46 : 62403 steps taken, and 20671 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:32:20 : 60953 steps taken, and 20190 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:32:47 : 62547 steps taken, and 20719 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:33:21 : 61113 steps taken, and 20245 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:33:47 : 62683 steps taken, and 20764 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:34:22 : 61246 steps taken, and 20288 accepted.
+[1 : mcmc] Learn + convergence test @ 20800 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 20:34:47 : 62826 steps taken, and 20817 accepted.
+[0 : mcmc] Learn + convergence test @ 20320 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6624286878565607, 0.6627215169736884])
+[0 : mcmc]  - Convergence of means: R-1 = 0.018993 after 41150 accepted steps = sum([20320, 20830])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:35:23 : 61398 steps taken, and 20334 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:35:48 : 62960 steps taken, and 20861 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:36:23 : 61543 steps taken, and 20391 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:36:48 : 63103 steps taken, and 20908 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:37:23 : 61705 steps taken, and 20449 accepted.
+[1 : mcmc] Learn + convergence test @ 20960 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 20:37:48 : 63271 steps taken, and 20968 accepted.
+[0 : mcmc] Learn + convergence test @ 20480 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6628904353455252, 0.6628123716551354])
+[0 : mcmc]  - Convergence of means: R-1 = 0.017244 after 41460 accepted steps = sum([20480, 20980])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:38:23 : 61835 steps taken, and 20496 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:38:48 : 63397 steps taken, and 21012 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:39:24 : 61966 steps taken, and 20539 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:39:49 : 63518 steps taken, and 21051 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:40:24 : 62097 steps taken, and 20578 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:40:50 : 63668 steps taken, and 21099 accepted.
+[1 : mcmc] Learn + convergence test @ 21120 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 20:41:25 : 62227 steps taken, and 20623 accepted.
+[0 : mcmc] Learn + convergence test @ 20640 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6628343877452713, 0.662955878202515])
+[0 : mcmc]  - Convergence of means: R-1 = 0.016128 after 41781 accepted steps = sum([20640, 21141])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 20:41:50 : 63797 steps taken, and 21143 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:42:25 : 62369 steps taken, and 20667 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:42:50 : 63925 steps taken, and 21185 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:43:25 : 62490 steps taken, and 20710 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:43:51 : 64059 steps taken, and 21226 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:44:25 : 62633 steps taken, and 20757 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:44:51 : 64190 steps taken, and 21275 accepted.
+[1 : mcmc] Learn + convergence test @ 21280 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 20:45:26 : 62750 steps taken, and 20796 accepted.
+[0 : mcmc] Learn + convergence test @ 20800 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6628848237618714, 0.6628800846534499])
+[0 : mcmc]  - Convergence of means: R-1 = 0.015539 after 42099 accepted steps = sum([20800, 21299])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 20:45:52 : 64315 steps taken, and 21316 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:46:26 : 62865 steps taken, and 20835 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:46:53 : 64460 steps taken, and 21363 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:47:26 : 62995 steps taken, and 20876 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:47:54 : 64585 steps taken, and 21406 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:48:27 : 63129 steps taken, and 20912 accepted.
+[1 : mcmc] Learn + convergence test @ 21440 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 20:48:54 : 64720 steps taken, and 21452 accepted.
+[0 : mcmc] Learn + convergence test @ 20960 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6624735295047252, 0.6628689638137581])
+[0 : mcmc]  - Convergence of means: R-1 = 0.016875 after 42429 accepted steps = sum([20960, 21469])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:49:28 : 63284 steps taken, and 20962 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:49:55 : 64851 steps taken, and 21494 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:50:29 : 63399 steps taken, and 21001 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:50:55 : 65000 steps taken, and 21545 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:51:29 : 63544 steps taken, and 21051 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:51:55 : 65154 steps taken, and 21595 accepted.
+[1 : mcmc] Learn + convergence test @ 21600 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 20:52:29 : 63676 steps taken, and 21098 accepted.
+[0 : mcmc] Learn + convergence test @ 21120 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6627961713478738, 0.6629096477794794])
+[0 : mcmc]  - Convergence of means: R-1 = 0.017323 after 42764 accepted steps = sum([21120, 21644])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 20:52:56 : 65308 steps taken, and 21644 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:53:29 : 63820 steps taken, and 21149 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:53:57 : 65436 steps taken, and 21687 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:54:30 : 63941 steps taken, and 21186 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:54:57 : 65562 steps taken, and 21734 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:55:31 : 64109 steps taken, and 21238 accepted.
+[1 : mcmc] Learn + convergence test @ 21760 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 20:55:58 : 65701 steps taken, and 21773 accepted.
+[0 : mcmc] Learn + convergence test @ 21280 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6625361935303091, 0.662863575514178])
+[0 : mcmc]  - Convergence of means: R-1 = 0.013689 after 43067 accepted steps = sum([21280, 21787])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 20:56:31 : 64271 steps taken, and 21290 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:56:58 : 65839 steps taken, and 21813 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:57:32 : 64448 steps taken, and 21338 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:57:59 : 65979 steps taken, and 21857 accepted.
+[0 : mcmc] Progress @ 2021-06-11 20:58:32 : 64572 steps taken, and 21381 accepted.
+[1 : mcmc] Progress @ 2021-06-11 20:58:59 : 66121 steps taken, and 21906 accepted.
+[1 : mcmc] Learn + convergence test @ 21920 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 20:59:33 : 64722 steps taken, and 21438 accepted.
+[0 : mcmc] Learn + convergence test @ 21440 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6625054075767876, 0.6626185728958975])
+[0 : mcmc]  - Convergence of means: R-1 = 0.013576 after 43374 accepted steps = sum([21440, 21934])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 20:59:59 : 66255 steps taken, and 21950 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:00:34 : 64877 steps taken, and 21484 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:00:59 : 66385 steps taken, and 21987 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:01:35 : 65013 steps taken, and 21537 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:01:59 : 66517 steps taken, and 22033 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:02:35 : 65165 steps taken, and 21588 accepted.
+[0 : mcmc] Learn + convergence test @ 21600 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 22080 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6626184561597203, 0.6623867522649547])
+[0 : mcmc]  - Convergence of means: R-1 = 0.012832 after 43686 accepted steps = sum([21606, 22080])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 21:02:59 : 66673 steps taken, and 22081 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:03:36 : 65310 steps taken, and 21639 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:04:01 : 66802 steps taken, and 22127 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:04:37 : 65494 steps taken, and 21704 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:05:01 : 66959 steps taken, and 22186 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:05:38 : 65653 steps taken, and 21759 accepted.
+[0 : mcmc] Learn + convergence test @ 21760 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 22240 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6629435753849899, 0.6628714494351883])
+[0 : mcmc]  - Convergence of means: R-1 = 0.011460 after 44023 accepted steps = sum([21783, 22240])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 21:06:01 : 67106 steps taken, and 22240 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:06:39 : 65796 steps taken, and 21808 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:07:01 : 67232 steps taken, and 22283 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:07:40 : 65933 steps taken, and 21849 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:08:02 : 67350 steps taken, and 22324 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:08:40 : 66068 steps taken, and 21895 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:09:02 : 67491 steps taken, and 22373 accepted.
+[0 : mcmc] Learn + convergence test @ 21920 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Learn + convergence test @ 22400 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6626979330351747, 0.6629572629335859])
+[0 : mcmc]  - Convergence of means: R-1 = 0.012096 after 44330 accepted steps = sum([21930, 22400])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 21:09:41 : 66203 steps taken, and 21936 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:10:03 : 67646 steps taken, and 22424 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:10:42 : 66342 steps taken, and 21977 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:11:03 : 67789 steps taken, and 22478 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:11:43 : 66482 steps taken, and 22025 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:12:03 : 67918 steps taken, and 22524 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:12:44 : 66634 steps taken, and 22076 accepted.
+[1 : mcmc] Learn + convergence test @ 22560 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Learn + convergence test @ 22080 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6625855239467051, 0.6634222365983474])
+[0 : mcmc]  - Convergence of means: R-1 = 0.014235 after 44641 accepted steps = sum([22080, 22561])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 21:13:03 : 68034 steps taken, and 22567 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:13:44 : 66762 steps taken, and 22112 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:14:03 : 68160 steps taken, and 22609 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:14:45 : 66892 steps taken, and 22153 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:15:04 : 68318 steps taken, and 22665 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:15:46 : 67038 steps taken, and 22198 accepted.
+[1 : mcmc] Learn + convergence test @ 22720 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 21:16:05 : 68506 steps taken, and 22723 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:16:47 : 67170 steps taken, and 22240 accepted.
+[0 : mcmc] Learn + convergence test @ 22240 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6622201048118151, 0.6635467693025425])
+[0 : mcmc]  - Convergence of means: R-1 = 0.010901 after 44997 accepted steps = sum([22240, 22757])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 21:17:05 : 68643 steps taken, and 22773 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:17:48 : 67298 steps taken, and 22282 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:18:05 : 68778 steps taken, and 22816 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:18:48 : 67427 steps taken, and 22320 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:19:05 : 68904 steps taken, and 22861 accepted.
+[1 : mcmc] Learn + convergence test @ 22880 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] Progress @ 2021-06-11 21:19:48 : 67560 steps taken, and 22366 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:20:06 : 69029 steps taken, and 22904 accepted.
+[0 : mcmc] Learn + convergence test @ 22400 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6621929228131375, 0.6636076773876038])
+[0 : mcmc]  - Convergence of means: R-1 = 0.011671 after 45323 accepted steps = sum([22400, 22923])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 21:20:49 : 67684 steps taken, and 22411 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:21:07 : 69173 steps taken, and 22954 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:21:50 : 67810 steps taken, and 22450 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:22:07 : 69326 steps taken, and 23000 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:22:51 : 67953 steps taken, and 22500 accepted.
+[1 : mcmc] Learn + convergence test @ 23040 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 21:23:07 : 69470 steps taken, and 23052 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:23:51 : 68080 steps taken, and 22540 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:24:08 : 69605 steps taken, and 23104 accepted.
+[0 : mcmc] Learn + convergence test @ 22560 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6620883958443388, 0.6638233097822965])
+[0 : mcmc]  - Convergence of means: R-1 = 0.013385 after 45673 accepted steps = sum([22560, 23113])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[0 : mcmc] Progress @ 2021-06-11 21:24:52 : 68205 steps taken, and 22579 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:25:09 : 69736 steps taken, and 23143 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:25:53 : 68345 steps taken, and 22629 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:26:09 : 69857 steps taken, and 23179 accepted.
+[1 : mcmc] Learn + convergence test @ 23200 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 21:27:09 : 69989 steps taken, and 23225 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:27:12 : 68402 steps taken, and 22649 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:28:09 : 70133 steps taken, and 23268 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:28:13 : 68525 steps taken, and 22692 accepted.
+[0 : mcmc] Learn + convergence test @ 22720 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6624099827983323, 0.6633254549078794])
+[0 : mcmc]  - Convergence of means: R-1 = 0.010863 after 46014 accepted steps = sum([22720, 23294])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 21:29:10 : 70291 steps taken, and 23313 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:29:14 : 68649 steps taken, and 22737 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:30:11 : 70427 steps taken, and 23353 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:30:15 : 68792 steps taken, and 22784 accepted.
+[1 : mcmc] Learn + convergence test @ 23360 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 21:31:12 : 70556 steps taken, and 23392 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:31:16 : 68929 steps taken, and 22829 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:32:12 : 70682 steps taken, and 23427 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:32:17 : 69061 steps taken, and 22875 accepted.
+[0 : mcmc] Learn + convergence test @ 22880 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6625162878239467, 0.6629610771667798])
+[0 : mcmc]  - Convergence of means: R-1 = 0.008973 after 46317 accepted steps = sum([22880, 23437])
+[0 : mcmc]  - Updated covariance matrix of proposal pdf.
+[1 : mcmc] Progress @ 2021-06-11 21:33:13 : 70826 steps taken, and 23478 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:33:18 : 69184 steps taken, and 22912 accepted.
+[1 : mcmc] Learn + convergence test @ 23520 samples accepted.
+[1 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[1 : mcmc] Progress @ 2021-06-11 21:34:13 : 70973 steps taken, and 23529 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:34:18 : 69303 steps taken, and 22954 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:35:14 : 71110 steps taken, and 23574 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:35:19 : 69426 steps taken, and 22998 accepted.
+[1 : mcmc] Progress @ 2021-06-11 21:36:14 : 71260 steps taken, and 23630 accepted.
+[0 : mcmc] Progress @ 2021-06-11 21:36:19 : 69549 steps taken, and 23034 accepted.
+[0 : mcmc] Learn + convergence test @ 23040 samples accepted.
+[0 : mcmc] Ready to check convergence and learn a new proposal covmat (waiting for the rest...)
+[0 : mcmc] All chains are ready to check convergence and learn a new proposal covmat
+[0 : mcmc]  - Acceptance rate: 0.663 = avg([0.6623354222963261, 0.6632547183039345])
+[0 : mcmc]  - Convergence of means: R-1 = 0.009375 after 46691 accepted steps = sum([23040, 23651])
+[0 : mcmc]  - Convergence of bounds: R-1 = 0.064811 after 46691 accepted steps = sum([23040, 23651])
+[0 : mcmc] The run has converged!
+----
+clik version 3be036bbb4f9
+  plik_cmbonly
+Checking likelihood '/home1/davidvng/repos/cobaya-packages/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+Checking lensing likelihood '/home1/davidvng/repos/cobaya-packages/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+[0 : mcmc] Sampling complete after 46691 accepted steps.
+----
+clik version 3be036bbb4f9
+  plik_cmbonly
+Checking likelihood '/home1/davidvng/repos/cobaya-packages/data/planck_2018/baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik' on test data. got -292.286 expected -292.286 (diff -3.86228e-09)
+----
+Checking lensing likelihood '/home1/davidvng/repos/cobaya-packages/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+[e22-10:5621 :0:5621] rc_verbs_iface.c:65   send completion with error: transport retry counter exceeded qpn 0xb3da wrid 0x36 vendor_err 0x81
+==== backtrace (tid:   5621) ====
+ 0 0x00000000000532a3 ucs_debug_print_backtrace()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/ucs/debug/debug.c:625
+ 1 0x000000000002659b uct_rc_verbs_handle_failure()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/ib/rc/verbs/rc_verbs_iface.c:63
+ 2 0x0000000000026b7d uct_rc_verbs_iface_poll_tx()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/ib/rc/verbs/rc_verbs_iface.c:104
+ 3 0x0000000000026b7d uct_rc_verbs_iface_progress()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/ib/rc/verbs/rc_verbs_iface.c:132
+ 4 0x000000000002a95a ucs_callbackq_dispatch()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/ucs/datastruct/callbackq.h:211
+ 5 0x000000000002a95a uct_worker_progress()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/uct/api/uct.h:2221
+ 6 0x000000000002a95a ucp_worker_progress()  /build/csul/spack-stage-ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/spack-src/src/ucp/core/ucp_worker.c:1951
+ 7 0x000000000009c2b4 opal_common_ucx_wait_all_requests()  common_ucx.c:0
+ 8 0x000000000009c831 opal_common_ucx_del_procs_nofence()  ???:0
+ 9 0x000000000009c859 opal_common_ucx_del_procs()  ???:0
+10 0x00000000001c3d69 mca_pml_ucx_del_procs()  ???:0
+11 0x0000000000078e57 ompi_mpi_finalize()  ???:0
+12 0x00000000000550de __pyx_f_6mpi4py_3MPI_atexit()  /tmp/pip-install-gm3_9gqw/mpi4py/src/mpi4py.MPI.c:7612
+13 0x000000000010cd81 call_ll_exitfuncs()  /tmp/build/80754af9/python_1578519979997/work/Python/pylifecycle.c:2285
+14 0x000000000010cd81 Py_FinalizeEx()  /tmp/build/80754af9/python_1578519979997/work/Python/pylifecycle.c:1372
+15 0x000000000025e229 Py_Exit()  /tmp/build/80754af9/python_1578519979997/work/Python/pylifecycle.c:2295
+16 0x000000000025e26d handle_system_exit()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:658
+17 0x000000000025e2c4 _PyErr_PrintEx()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:668
+18 0x0000000000110d8a PyRun_SimpleFileExFlags()  /tmp/build/80754af9/python_1578519979997/work/Python/pythonrun.c:434
+19 0x00000000002614ed pymain_run_file()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:387
+20 0x00000000002614ed _Py_XDECREF()  /tmp/build/80754af9/python_1578519979997/work/Include/object.h:541
+21 0x00000000002614ed pymain_run_file()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:388
+22 0x00000000002614ed pymain_run_python()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:571
+23 0x00000000002614ed Py_RunMain()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:650
+24 0x00000000002616e9 Py_BytesMain()  /tmp/build/80754af9/python_1578519979997/work/Modules/main.c:1082
+25 0x0000000000022555 __libc_start_main()  ???:0
+26 0x0000000000201c13 _start()  /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/src/glibc-2.12.2/csu/../sysdeps/x86_64/elf/start.S:103
+=================================
+[e22-10:05621] *** Process received signal ***
+[e22-10:05621] Signal: Aborted (6)
+[e22-10:05621] Signal code:  (-6)
+[e22-10:05621] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fd7cb36e630]
+[e22-10:05621] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fd7cafc7387]
+[e22-10:05621] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fd7cafc8a78]
+[e22-10:05621] [ 3] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucs.so.0(ucs_fatal_error_message+0x55)[0x7fd7875c6105]
+[e22-10:05621] [ 4] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucs.so.0(+0x56b92)[0x7fd7875cab92]
+[e22-10:05621] [ 5] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucs.so.0(ucs_log_dispatch+0xc4)[0x7fd7875cacb4]
+[e22-10:05621] [ 6] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/ucx/libuct_ib.so.0(+0x2659b)[0x7fd78403c59b]
+[e22-10:05621] [ 7] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/ucx/libuct_ib.so.0(+0x26b7d)[0x7fd78403cb7d]
+[e22-10:05621] [ 8] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/ucx-1.8.0-o6fhjkqszinevp3soi5szm76tkw3tjl2/lib/libucp.so.0(ucp_worker_progress+0x6a)[0x7fd787b4795a]
+[e22-10:05621] [ 9] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libopen-pal.so.40(+0x9c2b4)[0x7fd787e502b4]
+[e22-10:05621] [10] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libopen-pal.so.40(opal_common_ucx_del_procs_nofence+0x161)[0x7fd787e50831]
+[e22-10:05621] [11] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libopen-pal.so.40(opal_common_ucx_del_procs+0x9)[0x7fd787e50859]
+[e22-10:05621] [12] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libmpi.so.40(mca_pml_ucx_del_procs+0x89)[0x7fd78876fd69]
+[e22-10:05621] [13] /spack/apps/linux-centos7-x86_64/gcc-8.3.0/openmpi-4.0.2-ipm3dnvlbtxawpi4ifz7jma6jgr7mexq/lib/libmpi.so.40(ompi_mpi_finalize+0x557)[0x7fd788624e57]
+[e22-10:05621] [14] /home1/davidvng/miniconda3/envs/dmeff/lib/python3.8/site-packages/mpi4py/MPI.cpython-38-x86_64-linux-gnu.so(+0x550de)[0x7fd788ab00de]
+[e22-10:05621] [15] /home1/davidvng/miniconda3/envs/dmeff/bin/python(+0x10cd81)[0x5604a0532d81]
+[e22-10:05621] [16] /home1/davidvng/miniconda3/envs/dmeff/bin/python(Py_Exit+0x9)[0x5604a0684229]
+[e22-10:05621] [17] /home1/davidvng/miniconda3/envs/dmeff/bin/python(+0x25e26d)[0x5604a068426d]
+[e22-10:05621] [18] /home1/davidvng/miniconda3/envs/dmeff/bin/python(+0x25e2c4)[0x5604a06842c4]
+[e22-10:05621] [19] /home1/davidvng/miniconda3/envs/dmeff/bin/python(+0x110d8a)[0x5604a0536d8a]
+[e22-10:05621] [20] /home1/davidvng/miniconda3/envs/dmeff/bin/python(Py_RunMain+0x36d)[0x5604a06874ed]
+[e22-10:05621] [21] /home1/davidvng/miniconda3/envs/dmeff/bin/python(Py_BytesMain+0x39)[0x5604a06876e9]
+[e22-10:05621] [22] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fd7cafb3555]
+[e22-10:05621] [23] /home1/davidvng/miniconda3/envs/dmeff/bin/python(+0x201c13)[0x5604a0627c13]
+[e22-10:05621] *** End of error message ***
+srun: error: e22-10: task 0: Aborted
